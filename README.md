@@ -1,2 +1,3 @@
-# r_workshop_ex
-This repository contains lessons of my workshop: an introduction to data analysis with R
+# Workshop: An Introduction to Data Analysis with R
+
+This repository contains lesson files for the workshop.
