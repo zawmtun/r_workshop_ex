@@ -101,7 +101,7 @@ surveys %>%
 
 ### Practice ----
 
-# Using pipes, select the `surveys` data to include mothers gave birth to their last child at home
+# Using pipes, select the `surveys` data to include mothers received ANC at home,
 # and retain only columns `age`, `ancplace`, and `tetanus_vacc`
 
 surveys |> 
@@ -122,7 +122,7 @@ surveys |>
 # using a `~`. `.default = "Unknown"` will label the rows that do not match any of the above
 # conditions as Unknown.
 
-dat <- surveys |> 
+surveys_new <- surveys |> 
   mutate(
     agegrp = case_when(
       age >= 15 & age <= 24 ~ "15-24",
@@ -134,7 +134,7 @@ dat <- surveys |>
   )
 
 # Let's check if the grouping is done correctly.
-dat |> 
+surveys_new |> 
   select(age, agegrp) |> 
   table()
 
@@ -145,36 +145,36 @@ dat |>
 
 # Hint: Think carefully about what to use as default.
 
-dat <- dat |> 
+surveys_new <- surveys_new |> 
   mutate(
-    birth_order_last_child = case_when(
+    birth_order_last_child_grp = case_when(
       birth_order_last_child >= 4 ~ "4 and above",
       .default = as.character(birth_order_last_child)
     )
   )
 
-dat |> 
-  select(birth_order_last_child) |> 
+surveys_new |> 
+  select(birth_order_last_child, birth_order_last_child_grp) |> 
   table()
 
 # Aggregate ----
 
 # Calculate the average age by `residence`.
 
-surveys |> 
+surveys_new |> 
   group_by(residence) |> 
   summarize(mean_age = mean(age))
 
 # Get average age by `residence` and `education`.
 
-surveys |> 
+surveys_new |> 
   group_by(residence, education) |> 
   summarize(mean_age = mean(age))
 
 # Aggregate using multiple summary measures in one `summarise()` call.
 # Get average and minimum age by `residence` and `education`.
 
-surveys |>
+surveys_new |>
   group_by(residence, education) |>
   summarize(mean_age = mean(age),
             min_age = min(age))
@@ -182,7 +182,7 @@ surveys |>
 ## Sorting rows ----
 
 # Sort the results by `min_age`.
-surveys |>
+surveys_new |>
   group_by(residence, education) |>
   summarize(mean_age = mean(age),
             min_age = min(age)) |>
@@ -190,7 +190,7 @@ surveys |>
   arrange(min_age)
 
 # Sort the results by `min_age` in descending order.
-surveys |>
+surveys_new |>
   group_by(residence, education) |>
   summarize(mean_age = mean(age),
             min_age = min(age)) |>
@@ -202,7 +202,7 @@ surveys |>
 # Find out average, minimum, and maximum of number of children (last birth order) by education. Sort
 # the data by average number of children in descending order.
 
-surveys |>
+surveys_new |>
   group_by(education) |>
   summarize(mean_child = mean(birth_order_last_child),
             min_child = min(birth_order_last_child),
@@ -215,34 +215,37 @@ surveys |>
 # Count the number of rows 
 
 # Count the number of mothers by `employ`.
-surveys |>
+surveys_new |>
   count(employ)
 
 # `count()` is a shorthand for `group_by()` and `summarise()`, using `n()`. (See `?n` for more details)
 
-surveys |>
+surveys_new |>
   group_by(employ) |>
   summarise(count = n())
 
 # Sort the count in descending order.
-surveys |>
+surveys_new |>
   count(employ, sort = TRUE)
 
 # Count by `residence` and `employ`.
-surveys |>
+surveys_new |>
   count(residence, employ)
 
 ### Practice ----
 
 # 1.  Enumerate eligible mothers surveyed by their education attainment?
-surveys |> count(education)
+surveys_new |> count(education)
 
-# 2.  Count the mothers surveys by `state_region` and their `wealth` quantile?
-surveys |> count(state_region, wealth)
+# 2.  Count the mothers surveys_new by `state_region` and their `wealth` quantile?
+surveys_new |> count(state_region, wealth)
 
 # 3.  What was the oldest `age` of mothers in each type of health facility where they gave birth (`ancplace`)? Sort the maximum age in descending order.
-surveys |> 
+surveys_new |> 
   group_by(ancplace) |> 
   summarise(age_max = max(age)) |> 
   ungroup() |> 
   arrange(-age_max)
+
+# Export dataframe as CSV file
+write_csv(surveys_new, "data/surveys_new.csv")

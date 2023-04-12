@@ -2,48 +2,16 @@ library(tidyverse)
 library(broom)
 library(gtsummary)
 
-tt <- read_csv("dhs_myanmar_tetanus.csv")
+surveys2 <- readRDS("data/surveys2.rds")
 
-tt1 <- tt |> 
-  mutate(
-    agegrp = case_when(
-      age >= 15 & age <= 24 ~ "15-24",
-      age >= 25 & age <= 29 ~ "25-29",
-      age >= 30 & age <= 34 ~ "30-34",
-      age >= 35 & age <= 49 ~ "34-49",
-      .default = "Unknown"
-    ),
-    birth_order_last_child_grp = case_when(
-      birth_order_last_child >= 4 ~ "4 and higher",
-      .default = as.character(birth_order_last_child)
-    )
-  )
+# Get a first glance of relevant variables using tbl_summary()
 
-education_levels <- c("No education", "Primary", "Secondary", "More than secondary")
-employ_levels <- c("Agricultural", "Manual", "Sales", "Not working", "Other")
-wealth_levels <- c("Lowest", "Second", "Third", "Fourth", "Highest")
-problem_levels <- c("Not a big problem", "Big problem")
-ancplace_levels <- c("Public health facilities",
-                     "Private health facilities or NGO clinics",
-                     "Mixed",
-                     "Home",
-                     "None")
+surveys2 |> 
+  select(-caseid) |> 
+  tbl_summary()
 
-tt2 <- tt1 |> 
-  select(-c(caseid, age, birth_order_last_child)) |> 
-  relocate(agegrp, .before = everything()) |> 
-  relocate(birth_order_last_child_grp, .after = education) |> 
-  mutate(
-    education = factor(education, levels = edu_levels),
-    employ = factor(employ, levels = employ_levels),
-    wealth = factor(wealth, levels = wealth_levels),
-    get_help_permission = factor(get_help_permission, levels = problem_levels),
-    get_help_not_go_alone = factor(get_help_not_go_alone, levels = problem_levels),
-    get_help_money = factor(get_help_money, levels = problem_levels),
-    get_help_distance_health_facility = factor(get_help_distance_health_facility, levels = problem_levels),
-    ancplace = factor(ancplace, levels = ancplace_levels),
-    tetanus_vacc = (tetanus_vacc == "Vaccinated")
-  )
+
+
 
 var_labels <-  c(
   agegrp = "Age in years",
