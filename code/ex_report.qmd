@@ -1,0 +1,134 @@
+---
+title: "Maternal tetanus vaccination"
+author: "ZMT"
+format:
+  html:
+    code-fold: true
+editor: visual
+---
+
+```{r setup}
+#| echo: false
+knitr::opts_chunk$set(message = FALSE)
+```
+
+
+```{r pkgs}
+library(tidyverse)
+library(gtsummary)
+library(here)
+```
+
+```{r read_data}
+surveys4 <- readRDS(here("data/surveys4.rds"))
+```
+
+## Plots
+
+**Mothers' education attainment**
+
+```{r}
+surveys4 |> 
+  ggplot(aes(y = education, fill = education)) +
+  geom_bar(show.legend = FALSE) +
+  facet_wrap(vars(residence)) +
+  labs(x = "Number of mothers", y = NULL) +
+  theme_linedraw()
+```
+
+**Maternal tetanus vaccination by wealth quintile**
+
+```{r}
+surveys4 |> 
+  ggplot(aes(y = ancplace, fill = tetanus_vacc)) +
+  geom_bar(position = position_fill()) +
+  facet_wrap(vars(residence)) +
+  labs(x = "Proportion", y = "Facility of antenatal care",
+       fill = "Maternal tetanus vaccination") +
+  theme_linedraw() +
+  theme(
+    legend.position = "top"
+  )
+```
+
+## Characteristics of mothers and their maternal tetanus vaccination status
+
+```{r}
+var_labels <-  c(
+  agegrp = "Age in years",
+  birth_order_last_child_grp = "Birth order of last pregnancy",
+  state_region = "State or region of residence",
+  residence = "Urban or rural residence",
+  education = "Highest education level of mothers",
+  employ = "Mother's occupation",
+  wealth = "Quintiles of mother's wealth index",
+  get_help_permission = "Getting medical help for self: getting permission to go",
+  person_decides_healthcare = "Person who usually decides on woman's healthcare",
+  get_help_not_go_alone = "Getting medical help for self: not wanting to go alone",
+  get_help_money = "Getting medical help for self: getting money needed for treatment",
+  get_help_distance_health_facility = "Getting medical help for self: distance to health facility",
+  ancplace = "Type of facility where women received antenatal care",
+  tetanus_vacc = "Mothers vaccinated against tetanus"
+)
+
+surveys4 |> 
+  mutate(
+    tetanus_vacc = factor(tetanus_vacc, levels = c(TRUE, FALSE),
+                          labels = c("Unvaccinated", "Vaccinated"))
+  ) |> 
+  tbl_summary(
+    by = tetanus_vacc,
+    label = var_labels
+  ) |> 
+  add_overall(last = TRUE) |> 
+  add_p()
+```
+
+
+## Factors associated with maternal tetanus vaccination
+
+We considered the following variables:
+
+-   agegrp
+-   education
+-   employ
+-   residence
+-   wealth
+-   get_help_permission
+-   ancplace
+
+```{r}
+m_mv <- glm(tetanus_vacc ~ agegrp + education + employ + residence + wealth + get_help_permission + ancplace,
+          family = binomial,
+          data = surveys4)
+
+mv <- m_mv |> 
+  tbl_regression(
+    label = var_labels,
+    exponentiate = TRUE
+  ) |> 
+  add_global_p()
+
+uv <- surveys4 |> 
+  select(agegrp, education, employ, residence, wealth, get_help_permission,
+         ancplace, tetanus_vacc) |> 
+  tbl_uvregression(
+    label = var_labels,
+    y = tetanus_vacc,
+    method = glm,
+    method.args = list(family = binomial),
+    exponentiate = TRUE,
+    hide_n = TRUE
+  ) |> 
+  add_global_p()
+
+umv <- tbl_merge(
+  tbls = list(uv, mv),
+  tab_spanner = c("Univariable analysis", "Multivariable analysis")
+)
+  
+umv
+```
+
+
+
