@@ -14,7 +14,41 @@ surveys2 <- readRDS("data/surveys2.rds")
 ggplot(data = surveys2,
        mapping = aes(x = education, y = age))
 
-# Add geom layer.
+# Add geom layer ----
+## Histogram ----
+
+ggplot(data = surveys2, mapping = aes(x = age)) +
+  geom_histogram()
+
+# Change binwidth
+
+ggplot(data = surveys2, mapping = aes(x = age)) +
+  geom_histogram(binwidth = 1)
+
+## Density plot ----
+
+ggplot(data = surveys2, mapping = aes(x = age)) +
+  geom_density()
+
+# Split the data by residence and change colours of the curves
+
+ggplot(data = surveys2,
+       mapping = aes(x = age, colour = residence)) +
+  geom_density()
+
+# Split the data by residence and fill area under the curve with colours
+
+ggplot(data = surveys2,
+       mapping = aes(x = age, fill = residence)) +
+  geom_density()
+
+# Make the plot transparent
+
+ggplot(data = surveys2,
+       mapping = aes(x = age, fill = residence)) +
+  geom_density(alpha = 0.3)
+
+## Scatter plot ----
 
 ggplot(data = surveys2,
        mapping = aes(x = age, y = birth_order_last_child)) +
@@ -29,17 +63,17 @@ p1
 
 p1 + geom_point()
 
-# Build your plots iteratively
 
 ggplot(data = surveys2,
        aes(x = age, y = birth_order_last_child)) +
   geom_point()
 
- # The plot shows that the birth order of the last child is higher among older women. That makes
- # sense.
+# The plot shows that the birth order of the last child is higher among older
+# women. That makes sense.
 
-# But the points are too cramped and overlapped. Let's make the points more transparent.
-# Alpha argument ranges from 0 (totally transparent) to 1 (totally opaque).
+# But the points are too cramped and overlapped. Let's make the points more
+# transparent. Alpha argument ranges from 0 (totally transparent) to 1 (totally
+# opaque).
 
 ggplot(data = surveys2,
        aes(x = age, y = birth_order_last_child)) +
@@ -92,13 +126,15 @@ ggplot(data = surveys2,
 
 # 1.  Boxplots are useful summaries, but hide the shape of the distribution. For example, if there
 # is a bimodal distribution, it would not be observed with a boxplot. An alternative to the boxplot
-# is the violin plot (sometimes known as a beanplot), where the shape (of the density of points) is
+# is the violin plot, where the shape (of the density of points) is
 # drawn.
 
 # Replace the box plot with a violin plot; see `geom_violin()`.
 
 ggplot(data = surveys2,
-       mapping = aes(x = education, y = birth_order_last_child)) +
+       mapping = aes(x = education,
+                     y = birth_order_last_child,
+                     fill = education)) +
   geom_violin()
 
 # 2.  So far, we've looked at the distribution of birth order within education
@@ -116,7 +152,7 @@ ggplot(data = surveys2,
   geom_jitter(alpha = 0.2, aes(colour = residence)) +
   geom_boxplot(alpha = 0)
 
-# Bar plots ----
+## Bar plots ----
 
 # Let's count the mothers by their employment.
 
@@ -198,6 +234,8 @@ ggplot(surveys2, aes(y = wealth, fill = tetanus_vacc)) +
 
 # Themes ----
 
+## Pre-defined themes ----
+
 # In addition geoms and facets, we can change how the plot looks, like background colour, axis
 # grids, font type/size, etc by using generic `theme()` function, as we will see below. There are
 # also pre-defined themes already built in `ggplot2`. In the code below, `theme_bw()` produce a
@@ -246,7 +284,7 @@ ggplot(surveys2, aes(x = education, y = birth_order_last_child)) +
   facet_wrap(vars(residence)) +
   theme_minimal()
 
-# Customisation ----
+## Customisation ----
 
 # Take a look at the plot below and think of ways you could improve it.
 
@@ -366,7 +404,7 @@ my_plot
 
 ggsave("figs/wealth_by_residence.png", my_plot, width = 15, height = 10)
 
-# This also works for plots combined with patchwork.
+# This also works for plots combined with patchwork package.
 
 plot_combined <- p_birth / p_wealth + 
   plot_layout(heights = c(3, 2))
