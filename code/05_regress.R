@@ -1,143 +1,201 @@
 library(tidyverse)
-library(broom)
 library(car)
+library(collapse)
+library(broom)
 library(gtsummary)
+library(googlesheets4)
 
-surveys2 <- readRDS("data/surveys2.rds")
 
-# Descriptive analysis - table 1 ----
+dat <- read_sheet(Sys.getenv("WORKSHOP_GSHEET_DATA"))
+
+agegrp_lvl <- c(
+  "25 and younger",
+  "26-35",
+  "36-45",
+  "46 and older"
+)
+
+edu_lvl <- c(
+  "No education",
+  "Primary or Islamic education",
+  "Secondary or matric",
+  "Intermediate",
+  "Bachelors",
+  "Masters"
+)
+
+tx_status_lvl <- c(
+  "Completed therapy",
+  "Loss to follow-up",
+  "Referred",
+  "Refused therapy"
+)
+
+impact <- dat |> 
+  rename(visit_date = DATE_ENTERED,
+         age = AGE,
+         education = Education) |> 
+  fsubset(tx_status != "Terminated") |> 
+  fsubset(gender != "Transgender") |> 
+  fmutate(
+    agegrp = case_when(
+      age <= 25 ~ agegrp_lvl[1],
+      age > 25 & age <= 35 ~ agegrp_lvl[2],
+      age > 35 & age <= 45 ~ agegrp_lvl[3],
+      age > 45 ~ agegrp_lvl[4],
+      .default = "Unknown"
+    ) |>
+      factor(levels = agegrp_lvl),
+    gender = factor(gender),
+    factor(education, levels = edu_lvl),
+    language = fct_infreq(language) |> fct_lump_min(min = 55),
+    marital_status = factor(marital_status),
+    tx_status = fct_infreq(tx_status)
+  )
+
+# Glimpse variables
+glimpse(impact)
+
+# Describe summary statistics for all variables
+descr(impact)
+
+# Describe summary statistics for selected variables
+impact |> 
+  select(age, education, tx_status) |> 
+  descr()
+
+# Describe selected variables by group
+impact |> 
+  select(age, gender, education, tx_status) |> 
+  group_by(gender) |> 
+  descr()
+
+# By input
+impact |> 
+  select(age, gender, education, tx_status) |> 
+  descr(by = ~gender)
+
+# Sort the table by value, default is by frequency
+impact |> 
+  select(agegrp) |> 
+  descr()
+
+impact |> 
+  select(agegrp) |> 
+  descr(sort.table = "value")
+
+
+# Publication-ready tables: Summary statistics
 
 ## Table based on a few variables ----
-# Let's pick residence and education and make a table using tbl_summary()
+# Let's pick gender and education and make a table using tbl_summary()
 
-surveys2 |> 
-  select(residence, education) |> 
+impact |> 
+  select(gender, education) |> 
   tbl_summary()
 
 # Add variable label
 
-surveys2 |> 
-  select(residence, education) |> 
-  tbl_summary(
-    label = c(residence = "Urban or rural residence",
-              education = "Highest education attainment")
-  )
+vlabels(impact$visit_date) <- "Clinic visit date"
+vlabels(impact$patient_id) <- "Patient identifier"
+vlabels(impact$age) <- "Participant’s age in years"
+vlabels(impact$agegrp) <- "Participant’s age in years"
+vlabels(impact$gender) <- "Participant’s gender"
+vlabels(impact$education) <- "Participant’s highest educational attainment"
+vlabels(impact$language) <- "Participant’s language"
+vlabels(impact$marital_status) <- "Participant’s marital status"
+vlabels(impact$phq9) <- "Baseline total PHQ-9 score"
+vlabels(impact$gad7) <- "Baseline total GAD-7 score"
+vlabels(impact$visit_count) <- "Number of interactions with a counselor"
+vlabels(impact$tx_status) <- "Current treatment status of participant"
+
+impact |> 
+  select(gender, education) |> 
+  tbl_summary()
 
 ### Practice ----
-# Create a descriptive table for birth_order_last_child_grp, employ, and ancplace
-surveys2 |> 
-  select(birth_order_last_child_grp, employ, ancplace) |> 
-  tbl_summary(
-    label = c(birth_order_last_child_grp = "Birth order of last pregnancy",
-              employ = "Mother’s occupation",
-              ancplace = "Type of facility where women received antenatal care")
-  )
+# Create a descriptive table for age, gender, language
+impact |> 
+  select(age, gender, language) |> 
+  tbl_summary()
 
-# Distribution by outcome variable (tetanus_vacc)
-surveys2 |> 
-  select(residence, education, tetanus_vacc) |> 
-  tbl_summary(
-    by = tetanus_vacc,
-    label = c(residence = "Urban or rural residence",
-              education = "Highest education attainment")
-  ) |> 
+# Define binary variable ----
+impact1 <- impact |> 
+  mutate(completed_therapy = ifelse(tx_status != "Completed therapy",
+                                    "No",
+                                    "Yes"))
+
+vlabels(impact1$completed_therapy) <- "Participant completed therapy"
+
+# Distribution by a grouping variable (tetanus_vacc)
+impact1 |> 
+  select(gender, education, completed_therapy) |> 
+  tbl_summary(by = completed_therapy) |> 
   add_overall(last = TRUE) |> 
   add_p()
 
 ## All variables ----
-names(surveys2)
-# Let's remove caseid, age, birth_order_last_child from the dataframe
+names(impact)
+# Let's remove visit_date, patient_id, visit_count, age, completed_therapy from the dataframe
+# Save the data in an object first to reuse it later
+impact2 <- impact1 |> 
+  select(-c(visit_date, patient_id, visit_count, age))
 
-surveys2 |> 
-  select(-c(caseid, age, birth_order_last_child)) |> 
-  relocate(agegrp, .before = state_region) |> 
-  relocate(birth_order_last_child_grp, .before = education) |> 
+impact2 |> 
+  relocate(agegrp, .before = gender) |> 
   tbl_summary()
 
-# Save the data in an object first to reuse it later
-surveys3 <- surveys2 |> 
-  select(-c(caseid, age, birth_order_last_child)) |> 
-  relocate(agegrp, .before = state_region) |> 
-  relocate(birth_order_last_child_grp, .before = education)
-
 ### Create a publication-ready table ----
-# Create a named vector for labels
-var_labels <-  c(
-  agegrp = "Age in years",
-  birth_order_last_child_grp = "Birth order of last pregnancy",
-  state_region = "State or region of residence",
-  residence = "Urban or rural residence",
-  education = "Highest education level of mothers",
-  employ = "Mother's occupation",
-  wealth = "Quintiles of mother's wealth index",
-  get_help_permission = "Getting medical help for self: getting permission to go",
-  person_decides_healthcare = "Person who usually decides on woman's healthcare",
-  get_help_not_go_alone = "Getting medical help for self: not wanting to go alone",
-  get_help_money = "Getting medical help for self: getting money needed for treatment",
-  get_help_distance_health_facility = "Getting medical help for self: distance to health facility",
-  ancplace = "Type of facility where women received antenatal care",
-  tetanus_vacc = "Mothers vaccinated against tetanus"
-)
-
-surveys3 |> 
-  tbl_summary(
-    by = tetanus_vacc,
-    label = var_labels
-  ) |> 
-  add_overall(last = TRUE) |> 
-  add_p()
+impact2 |> 
+  tbl_summary(by = completed_therapy) |> 
+  add_overall() |> 
+  add_p() |> 
+  modify_spanning_header(all_stat_cols(stat_0 = FALSE) ~ "**Completed therapy**")
 
 # Univariable analysis ----
 
-# Outcome of interest: tetanus_vacc
+# Outcome of interest: completed_therapy
 
 ## Interactive ----
 # Example: agegrp
 # Create a LR model based on surveys2
-m1 <- glm(tetanus_vacc ~ agegrp, family = binomial, data = surveys3)
-# ERROR: tetanus_vacc must be 0 or 1/ FALSE or TRUE
+m1 <- glm(completed_therapy ~ agegrp, family = binomial, data = impact2)
+# Error in eval(family$initialize) : y values must be 0 <= y <= 1
 
 # Change the outcome variable accordingly
-surveys4 <- surveys3 |> 
-  mutate(tetanus_vacc = tetanus_vacc == "Unvaccinated")
+# Also remove two observations of transgender
+impact3 <- impact2 |> 
+  mutate(completed_therapy = (completed_therapy == "Yes"))
 
 # Create a LR model based on surveys3
-m1 <- glm(tetanus_vacc ~ agegrp, family = binomial, data = surveys4)
+m1 <- glm(completed_therapy ~ agegrp, family = binomial, data = impact3)
 
 # Examine the model
 summary(m1)
 tidy(m1, exponentiate = TRUE, conf.int = TRUE)
 Anova(m1)
 
-# Example: residence
-m2 <- glm(tetanus_vacc ~ residence, family = binomial, data = surveys4)
+# Example: education
+m2 <- glm(completed_therapy ~ education, family = binomial, data = impact3)
 tidy(m2, exponentiate = TRUE, conf.int = TRUE)
 Anova(m2)
 
 ### Practice ----
 # Build LR models and examine the results using education, ancplace
 
-# education
-m_education <- glm(tetanus_vacc ~ education, family = binomial, data = surveys4)
-summary(m_education)
-tidy(m_education, exponentiate = TRUE, conf.int = TRUE)
-Anova(m_education)
-
-# ancplace
-m_ancplace <- glm(tetanus_vacc ~ ancplace, family = binomial, data = surveys4)
-summary(m_ancplace)
-tidy(m_ancplace, exponentiate = TRUE, conf.int = TRUE)
-Anova(m_ancplace)
+# language
+m_language <- glm(completed_therapy ~ language, family = binomial, data = impact3)
+summary(m_language)
+tidy(m_language, exponentiate = TRUE, conf.int = TRUE)
+Anova(m_language)
 
 ## Publication-ready table ----
 
-# Independent variable: agegrp, 
-surveys4 |> 
-  select(agegrp, residence, tetanus_vacc) |> 
+# Independent variable: agegrp, gender
+impact3 |> 
+  select(agegrp, gender, completed_therapy) |> 
   tbl_uvregression(
-    label = c(agegrp = "Age in years",
-              residence = "Urban and rural residence"),
-    y = tetanus_vacc,
+    y = completed_therapy,
     method = glm,
     method.args = list(family = binomial),
     exponentiate = TRUE
@@ -145,11 +203,11 @@ surveys4 |>
   add_global_p()
 
 ### Practice ----
-# Build univariable LR models and examine the results based on all variables
-surveys4 |> 
+# Build univariable LR models and examine the results based on all variables except phq9 and gad7 scores
+impact3 |> 
+  select(-c(phq9, gad7)) |> 
   tbl_uvregression(
-    label = var_labels,
-    y = tetanus_vacc,
+    y = completed_therapy,
     method = glm,
     method.args = list(family = binomial),
     exponentiate = TRUE
@@ -160,28 +218,25 @@ surveys4 |>
 
 # Example: education, residence
 # Build model
-mv1 <- glm(tetanus_vacc ~ education + residence,
+mv1 <- glm(completed_therapy ~ agegrp + gender + education,
            family = binomial,
-           data = surveys4)
+           data = impact3)
 
 # Extract estimates
 tidy(mv1, exponentiate = TRUE, conf.int = TRUE)
 # Obtain global p value
 Anova(mv1)
+
 # Create publication-ready table 
 mv <- mv1 |> 
-  tbl_regression(
-    label = var_labels,
-    exponentiate = TRUE
-  ) |> 
+  tbl_regression(exponentiate = TRUE) |> 
   add_global_p()
 
 # Combine uni- and multi-variable analysis results in one table
-uv <- surveys4 |> 
-  select(education, residence, tetanus_vacc) |> 
+uv <- impact3 |> 
+  select(agegrp, gender, education, completed_therapy) |> 
   tbl_uvregression(
-    label = var_labels,
-    y = tetanus_vacc,
+    y = completed_therapy,
     method = glm,
     method.args = list(family = binomial),
     exponentiate = TRUE,
@@ -194,50 +249,7 @@ umv <- tbl_merge(
   tab_spanner = c("Univariable analysis", "Multivariable analysis")
 )
 
-umv
-
-### Practice ----
-
-# 1. Using multivariable analysis to examine the following as possible
-# factors associated with maternal tetanus vaccination:
-# agegrp, education, employ, residence, wealth, get_help_permission, ancplace
-
-m_mv <- glm(tetanus_vacc ~ agegrp + education + employ + residence + wealth + get_help_permission + ancplace,
-          family = binomial,
-          data = surveys4)
-
-tidy(m_mv, exponentiate = TRUE, conf.int = TRUE)
-Anova(m_mv)
-
-# 2. Create a publication-ready table combining uni- and multivariable analyses
-# results
-
-mv <- m_mv |> 
-  tbl_regression(
-    label = var_labels,
-    exponentiate = TRUE
-  ) |> 
-  add_global_p()
-
-uv <- surveys4 |> 
-  select(agegrp, education, employ, residence, wealth, get_help_permission,
-         ancplace, tetanus_vacc) |> 
-  tbl_uvregression(
-    label = var_labels,
-    y = tetanus_vacc,
-    method = glm,
-    method.args = list(family = binomial),
-    exponentiate = TRUE,
-    hide_n = TRUE
-  ) |> 
-  add_global_p()
-
-umv <- tbl_merge(
-  tbls = list(uv, mv),
-  tab_spanner = c("Univariable analysis", "Multivariable analysis")
-)
-  
 umv
 
 # Save surveys4 as RDS so we can use it to generate a report.
-saveRDS(surveys4, "data/surveys4.rds")
+saveRDS(impact3, "data/impact3.rds")
