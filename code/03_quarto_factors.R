@@ -5,8 +5,8 @@
 # - How to run code chunk
 # - Common code chunk
 # - How to add in-line code chunk
-# - Visual editor
-# - Source editor
+# - Visual and source editors and their relationship
+# - Resources for learning markdown syntax  https://stackedit.io/app#
 
 # Factors ----
 
