@@ -5,7 +5,6 @@ library(broom)
 library(gtsummary)
 library(googlesheets4)
 
-
 dat <- read_sheet(Sys.getenv("WORKSHOP_GSHEET_DATA"))
 
 agegrp_lvl <- c(
@@ -121,9 +120,10 @@ impact |>
 
 # Define binary variable ----
 impact1 <- impact |> 
-  mutate(completed_therapy = ifelse(tx_status != "Completed therapy",
-                                    "No",
-                                    "Yes"))
+  mutate(
+    completed_therapy = case_when(tx_status == "Completed therapy" ~ "Yes",
+                                  .default = "No")
+  )
 
 vlabels(impact1$completed_therapy) <- "Participant completed therapy"
 
