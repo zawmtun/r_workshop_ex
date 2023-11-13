@@ -1,11 +1,10 @@
 library(tidyverse)
-library(car)
 library(collapse)
 library(broom)
 library(gtsummary)
-library(googlesheets4)
+library(car)
 
-dat <- read_sheet(Sys.getenv("WORKSHOP_GSHEET_DATA"))
+dat <- read_csv("data/psz_impact.csv")
 
 agegrp_lvl <- c(
   "25 and younger",
@@ -63,17 +62,6 @@ impact |>
   select(age, education, tx_status) |> 
   descr()
 
-# Describe selected variables by group
-impact |> 
-  select(age, gender, education, tx_status) |> 
-  group_by(gender) |> 
-  descr()
-
-# By input
-impact |> 
-  select(age, gender, education, tx_status) |> 
-  descr(by = ~gender)
-
 # Sort the table by value, default is by frequency
 impact |> 
   select(agegrp) |> 
@@ -95,18 +83,21 @@ impact |>
 
 # Add variable label
 
-vlabels(impact$visit_date) <- "Clinic visit date"
-vlabels(impact$patient_id) <- "Patient identifier"
-vlabels(impact$age) <- "Participant’s age in years"
-vlabels(impact$agegrp) <- "Participant’s age in years"
-vlabels(impact$gender) <- "Participant’s gender"
-vlabels(impact$education) <- "Participant’s highest educational attainment"
-vlabels(impact$language) <- "Participant’s language"
-vlabels(impact$marital_status) <- "Participant’s marital status"
-vlabels(impact$phq9) <- "Baseline total PHQ-9 score"
-vlabels(impact$gad7) <- "Baseline total GAD-7 score"
-vlabels(impact$visit_count) <- "Number of interactions with a counselor"
-vlabels(impact$tx_status) <- "Current treatment status of participant"
+impact <- impact |> 
+  mutate(
+    visit_date = setLabels(visit_date, "Clinic visit date"),
+    patient_id = setLabels(patient_id, "Patient identifier"),
+    age = setLabels(age, "Participant’s age in years"),
+    agegrp = setLabels(agegrp, "Participant’s age in years"),
+    gender = setLabels(gender, "Participant’s gender"),
+    education = setLabels(education, "Participant’s highest educational attainme"),
+    language = setLabels(language, "Participant’s language"),
+    marital_status = setLabels(marital_status, "Participant’s marital status"),
+    phq9 = setLabels(phq9, "Baseline total PHQ-9 score"),
+    gad7 = setLabels(gad7, "Baseline total GAD-7 score"),
+    visit_count = setLabels(visit_count, "Number of interactions with a counselor"),
+    tx_status = setLabels(tx_status, "Current treatment status of participant")
+  )
 
 impact |> 
   select(gender, education) |> 
@@ -118,28 +109,55 @@ impact |>
   select(age, gender, language) |> 
   tbl_summary()
 
-# Define binary variable ----
+# Describe selected variables by group ----
+
+# Define a binary variable
 impact1 <- impact |> 
   mutate(
-    completed_therapy = case_when(tx_status == "Completed therapy" ~ "Yes",
-                                  .default = "No")
+    tx_completed = case_when(tx_status == "Completed therapy" ~ "Completed",
+                             .default = "Not completed"),
+    tx_completed = setLabels(tx_completed, "Whether or not participant completed therapy")
   )
 
-vlabels(impact1$completed_therapy) <- "Participant completed therapy"
-
-# Distribution by a grouping variable (tetanus_vacc)
+# Describe variables by the binary variable
+# Using group_by()
 impact1 |> 
-  select(gender, education, completed_therapy) |> 
-  tbl_summary(by = completed_therapy) |> 
+  select(age, gender, education, tx_completed) |> 
+  group_by(tx_completed) |> 
+  descr()
+
+# Using `by` input from descr()
+impact1 |> 
+  select(age, gender, education, tx_completed) |> 
+  descr(by = ~tx_completed)
+
+# T-test
+t.test(age ~ tx_completed, data = impact1)
+
+# Chi-square test
+impact1 |> 
+  select(gender, tx_completed) |> 
+  table() |> 
+  chisq.test()
+
+impact1 |> 
+  select(education, tx_completed) |> 
+  table() |> 
+  chisq.test()
+
+# Distribution by a grouping variable (tx_completed)
+impact1 |> 
+  select(age, gender, education, tx_completed) |> 
+  tbl_summary(by = tx_completed) |> 
   add_overall(last = TRUE) |> 
   add_p()
 
 ## All variables ----
-names(impact)
-# Let's remove visit_date, patient_id, visit_count, age, completed_therapy from the dataframe
+names(impact1)
+# Let's remove visit_date, patient_id, visit_count, age, tx_completed from the dataframe
 # Save the data in an object first to reuse it later
 impact2 <- impact1 |> 
-  select(-c(visit_date, patient_id, visit_count, age))
+  select(-c(visit_date, patient_id, visit_count, age, tx_completed))
 
 impact2 |> 
   relocate(agegrp, .before = gender) |> 
@@ -147,28 +165,28 @@ impact2 |>
 
 ### Create a publication-ready table ----
 impact2 |> 
-  tbl_summary(by = completed_therapy) |> 
+  tbl_summary(by = tx_completed) |> 
   add_overall() |> 
   add_p() |> 
   modify_spanning_header(all_stat_cols(stat_0 = FALSE) ~ "**Completed therapy**")
 
 # Univariable analysis ----
 
-# Outcome of interest: completed_therapy
+# Outcome of interest: tx_completed
 
 ## Interactive ----
 # Example: agegrp
 # Create a LR model based on surveys2
-m1 <- glm(completed_therapy ~ agegrp, family = binomial, data = impact2)
+m1 <- glm(tx_completed ~ agegrp, family = binomial, data = impact2)
 # Error in eval(family$initialize) : y values must be 0 <= y <= 1
 
 # Change the outcome variable accordingly
 # Also remove two observations of transgender
-impact3 <- impact2 |> 
-  mutate(completed_therapy = (completed_therapy == "Yes"))
+impact3 <- impact1 |> 
+  mutate(tx_completed = (tx_completed == "Completed"))
 
 # Create a LR model based on surveys3
-m1 <- glm(completed_therapy ~ agegrp, family = binomial, data = impact3)
+m1 <- glm(tx_completed ~ agegrp, family = binomial, data = impact3)
 
 # Examine the model
 summary(m1)
@@ -176,7 +194,7 @@ tidy(m1, exponentiate = TRUE, conf.int = TRUE)
 Anova(m1)
 
 # Example: education
-m2 <- glm(completed_therapy ~ education, family = binomial, data = impact3)
+m2 <- glm(tx_completed ~ education, family = binomial, data = impact3)
 tidy(m2, exponentiate = TRUE, conf.int = TRUE)
 Anova(m2)
 
@@ -184,7 +202,7 @@ Anova(m2)
 # Build LR models and examine the results using education, ancplace
 
 # language
-m_language <- glm(completed_therapy ~ language, family = binomial, data = impact3)
+m_language <- glm(tx_completed ~ language, family = binomial, data = impact3)
 summary(m_language)
 tidy(m_language, exponentiate = TRUE, conf.int = TRUE)
 Anova(m_language)
@@ -193,9 +211,9 @@ Anova(m_language)
 
 # Independent variable: agegrp, gender
 impact3 |> 
-  select(agegrp, gender, completed_therapy) |> 
+  select(agegrp, gender, tx_completed) |> 
   tbl_uvregression(
-    y = completed_therapy,
+    y = tx_completed,
     method = glm,
     method.args = list(family = binomial),
     exponentiate = TRUE
@@ -207,7 +225,7 @@ impact3 |>
 impact3 |> 
   select(-c(phq9, gad7)) |> 
   tbl_uvregression(
-    y = completed_therapy,
+    y = tx_completed,
     method = glm,
     method.args = list(family = binomial),
     exponentiate = TRUE
@@ -218,7 +236,7 @@ impact3 |>
 
 # Example: education, residence
 # Build model
-mv1 <- glm(completed_therapy ~ agegrp + gender + education,
+mv1 <- glm(tx_completed ~ agegrp + gender + education,
            family = binomial,
            data = impact3)
 
@@ -234,9 +252,9 @@ mv <- mv1 |>
 
 # Combine uni- and multi-variable analysis results in one table
 uv <- impact3 |> 
-  select(agegrp, gender, education, completed_therapy) |> 
+  select(agegrp, gender, education, tx_completed) |> 
   tbl_uvregression(
-    y = completed_therapy,
+    y = tx_completed,
     method = glm,
     method.args = list(family = binomial),
     exponentiate = TRUE,

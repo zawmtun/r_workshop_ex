@@ -1,0 +1,1009 @@
+DATE_ENTERED,patient_id,AGE,gender,Education,language,marital_status,phq9,gad7,visit_count,tx_status
+30/1/2020,dErXwHa9Zq,25,Male,Secondary or matric,,Married,27,18,1,Loss to Follow-up
+31/5/2020,Py7ZM6W5Ib,32,Female,Secondary or matric,Urdu,Others,10,10,1,Loss to Follow-up
+1/8/2020,RxpNzFcCrH,47,Female,Secondary or matric,Sindhi,Married,27,20,1,Loss to Follow-up
+1/8/2020,prHU0DuQNL,32,Female,Secondary or matric,Urdu,Married,16,18,1,Loss to Follow-up
+31/8/2020,Nr7H1s89x3,41,Male,Intermediate,Urdu,Married,3,6,1,Loss to Follow-up
+31/10/2020,Oz2irQP7Xk,35,Female,Intermediate,Urdu,Married,10,7,1,Loss to Follow-up
+13/2/2020,vw7jdhtqNz,21,Male,Secondary or matric,Urdu,Unmarried,4,2,1,Loss to Follow-up
+13/2/2020,7UwfyNs2zC,19,Male,Secondary or matric,Urdu,Unmarried,12,11,4,Completed therapy
+13/2/2020,L8bH40whWz,40,Female,Primary or Islamic education,,,11,5,4,Completed therapy
+14/2/2020,vdAS4NLgV1,55,Female,No education,Sindhi,Married,20,19,1,Loss to Follow-up
+14/2/2020,sYvRBhuGcn,31,Female,Intermediate,Saraiki,Others,23,15,1,Loss to Follow-up
+14/2/2020,RdnQDZ6cpL,30,Female,No education,Urdu,Married,24,15,1,Loss to Follow-up
+3/9/2020,3rCoS7yWG1,36,Male,Intermediate,Urdu,Married,2,0,1,Refuse
+14/5/2020,ZqlikBGYJf,50,Female,Primary or Islamic education,Urdu,Married,7,7,1,Loss to Follow-up
+16/5/2020,v3DY4hoCn5,42,Female,Secondary or matric,Urdu,Married,24,20,4,Completed therapy
+16/5/2020,PYFZpIgWDe,41,Female,Primary or Islamic education,Saraiki,Married,8,6,4,Completed therapy
+17/5/2020,oMbqehAtJu,52,Male,Masters,Urdu,Others,3,10,3,Completed therapy
+20/5/2020,yQYiAnhkXj,19,Female,Secondary or matric,Urdu,Unmarried,22,12,5,Completed therapy
+20/5/2020,nkAN9xPhXp,42,Female,Secondary or matric,Urdu,Married,15,9,3,Completed therapy
+21/5/2020,mxaQUlsn9O,45,Male,Primary or Islamic education,,Married,8,7,4,Completed therapy
+22/5/2020,FPakVsR0HO,40,Female,Primary or Islamic education,Urdu,Married,4,6,3,Completed therapy
+23/5/2020,1SIqTN0AnF,40,Female,Secondary or matric,Urdu,Married,15,15,4,Completed therapy
+24/5/2020,3y5J2bAExo,39,Female,Primary or Islamic education,Punjabi,Married,6,8,1,Loss to Follow-up
+25/5/2020,mlE945oxHw,23,Male,Primary or Islamic education,Urdu,Unmarried,12,10,6,Completed therapy
+25/5/2020,Twpor1m3Jg,23,Female,Bachelors,Urdu,Unmarried,14,17,6,Completed therapy
+25/5/2020,gEJVrLHnxy,24,Male,Bachelors,Punjabi,Married,3,7,4,Completed therapy
+27/5/2020,4vG52lQWhs,44,Male,Secondary or matric,Urdu,Married,4,8,4,Completed therapy
+28/5/2020,X9oTysUH35,22,Female,Intermediate,Urdu,Unmarried,16,17,4,Completed therapy
+28/5/2020,5OW0bKBAla,34,Female,Primary or Islamic education,,Married,9,7,1,Loss to Follow-up
+31/6/2020,fCeXDYqljd,42,Female,Primary or Islamic education,Urdu,Married,16,16,3,Completed therapy
+31/6/2020,5CyMZnd6QK,42,Male,Primary or Islamic education,,Married,7,6,1,Loss to Follow-up
+5/12/2019,VZ49UT7BtQ,41,Female,Primary or Islamic education,,,8,9,4,Completed therapy
+5/12/2019,E5trOqLmfo,25,Male,Primary or Islamic education,,,11,11,5,Completed therapy
+5/12/2019,7cbLkqJEHZ,29,Male,Primary or Islamic education,,,0,1,3,Completed therapy
+5/12/2019,4D3fv1CqtX,33,Male,Primary or Islamic education,,,3,11,3,Completed therapy
+5/12/2019,LJe49mPqfo,32,Female,Primary or Islamic education,Urdu,Others,21,13,3,Completed therapy
+5/12/2019,t81hgVFILJ,58,Male,Intermediate,Urdu,Married,19,10,2,Loss to Follow-up
+5/1/2020,ObYJn4XSEF,40,Female,Primary or Islamic education,Urdu,Married,3,3,3,Completed therapy
+3/2/2020,RTrA6yBFYv,29,Female,Masters,Other.,Unmarried,11,7,4,Completed therapy
+3/2/2020,wIG9k0dR1C,50,Male,Bachelors,Urdu,Unmarried,4,1,3,Completed therapy
+5/3/2020,ZlYBIWRxN3,34,Male,Primary or Islamic education,Saraiki,Married,11,10,4,Completed therapy
+5/3/2020,FjyfREUkOW,26,Male,Bachelors,Hindko,Married,8,9,1,Loss to Follow-up
+5/3/2020,0af4yXkVMn,40,Female,Primary or Islamic education,Punjabi,,12,9,4,Completed therapy
+5/3/2020,w6q1zyUSjn,27,Female,Primary or Islamic education,,,9,7,6,Completed therapy
+5/5/2020,tUbOycslCF,22,Female,Primary or Islamic education,,,16,7,3,Completed therapy
+5/5/2020,GX0NQ7aBdn,40,Male,Primary or Islamic education,,,8,7,3,Completed therapy
+5/5/2020,pdmFGJuYPv,48,Female,Primary or Islamic education,,,16,11,2,Completed therapy
+4/6/2020,79HalzMcL6,22,Male,Primary or Islamic education,,,6,10,2,Completed therapy
+5/7/2020,zq8RtLfOaE,27,Female,Primary or Islamic education,,,19,11,1,Loss to Follow-up
+5/8/2020,GnPkFJVgvx,49,Female,Primary or Islamic education,,,13,6,3,Completed therapy
+5/8/2020,dlsEqcf2Y7,42,Male,Primary or Islamic education,Sindhi,Unmarried,17,13,1,Loss to Follow-up
+5/8/2020,ziO4cYEUpj,21,Male,Primary or Islamic education,Saraiki,Unmarried,9,8,3,Completed therapy
+5/8/2020,aASuGD3OR0,32,Female,Primary or Islamic education,Urdu,Married,14,9,1,Loss to Follow-up
+4/9/2020,x4CNwFWaT8,40,Female,Primary or Islamic education,,,19,9,1,Loss to Follow-up
+4/9/2020,DshFZKXc9B,50,Female,Intermediate,Urdu,Married,21,21,3,Completed therapy
+4/9/2020,9mj2OMc5Hq,22,Male,Primary or Islamic education,,,11,12,3,Completed therapy
+4/9/2020,EHtMDTRZYF,29,Female,Secondary or matric,Sindhi,Married,24,16,4,Referred
+4/9/2020,EmdpoQGBOl,30,Female,Primary or Islamic education,,,8,12,3,Completed therapy
+5/10/2020,9bns7GmDrl,30,Female,Primary or Islamic education,Saraiki,Married,11,7,3,Completed therapy
+5/10/2020,R7oEKfnDjq,38,Male,Primary or Islamic education,,,21,12,1,Referred
+5/10/2020,C1Hc8qdiOy,28,Male,Masters,Punjabi,Unmarried,12,7,4,Completed therapy
+5/10/2020,1DfV2yPAxe,45,Female,Primary or Islamic education,,Others,9,10,3,Completed therapy
+10/6/2020,Fj3uZd80eo,32,Female,Intermediate,Urdu,Married,7,6,4,Completed therapy
+10/6/2020,OQrfC0VMLZ,39,Female,No education,Sindhi,Married,10,5,3,Completed therapy
+10/6/2020,LcUu2WJKRg,28,Female,Primary or Islamic education,Saraiki,Unmarried,18,14,4,Completed therapy
+10/6/2020,v2L1DdXr4Z,45,Female,Intermediate,Urdu,Married,2,4,3,Completed therapy
+10/6/2020,9F34rON0fM,30,Female,Primary or Islamic education,Urdu,Unmarried,3,5,3,Completed therapy
+10/6/2020,fERG5h7Jy2,22,Female,No education,Sindhi,Married,8,12,4,Completed therapy
+10/6/2020,hPsy2dtIrD,24,Female,Primary or Islamic education,Saraiki,Married,15,9,1,Loss to Follow-up
+11/6/2020,zoGaNyC497,26,Female,Primary or Islamic education,,,14,13,3,Completed therapy
+11/6/2020,biqokIWcfs,22,Male,Intermediate,Urdu,Unmarried,13,19,7,Completed therapy
+11/6/2020,kABhLa49RG,49,Female,Primary or Islamic education,Urdu,Married,10,8,5,Completed therapy
+11/6/2020,wONK6hRIza,40,Female,Primary or Islamic education,,,18,15,3,Completed therapy
+12/6/2020,Zir6W0TFMx,18,Female,Primary or Islamic education,,,13,16,3,Completed therapy
+13/6/2020,dUREvaeH38,38,Female,Primary or Islamic education,,,16,15,3,Completed therapy
+13/6/2020,1TLvfhag3l,22,Female,Primary or Islamic education,,,9,11,1,Loss to Follow-up
+13/6/2020,kGA8MN3Y5g,40,Female,Primary or Islamic education,Sindhi,Married,19,15,4,Completed therapy
+13/6/2020,Wz48USQD03,62,Male,Primary or Islamic education,Sindhi,Married,12,11,2,Completed therapy
+13/6/2020,AZ8Esq5UnP,16,Female,Primary or Islamic education,,,16,11,3,Completed therapy
+13/6/2020,kEmHXFYSrN,40,Male,Primary or Islamic education,,,15,11,3,Completed therapy
+13/6/2020,MkP3rdF6mD,29,Male,Primary or Islamic education,,,14,5,1,Loss to Follow-up
+13/6/2020,yDCu2FA4He,30,Female,Primary or Islamic education,Urdu,Married,10,9,1,Loss to Follow-up
+14/6/2020,QZ9nkoIiXl,22,Male,Secondary or matric,Saraiki,Married,13,12,3,Completed therapy
+14/6/2020,CvB8DlQUeI,50,Male,No education,Hindko,Married,13,10,1,Loss to Follow-up
+14/6/2020,PSbjXialr5,25,Female,No education,Saraiki,Married,11,13,3,Completed therapy
+15/6/2020,X1R9sICN7E,44,Male,Primary or Islamic education,,,6,3,2,Loss to Follow-up
+15/6/2020,2db7EGFqWP,38,Female,Primary or Islamic education,Urdu,Unmarried,15,15,3,Completed therapy
+15/6/2020,5yLM6SITRN,20,Female,Primary or Islamic education,,,16,14,2,Loss to Follow-up
+15/6/2020,rIoYXBLcvW,40,Female,Primary or Islamic education,,,12,8,3,Completed therapy
+17/6/2020,U1x2akRvcI,21,Male,Primary or Islamic education,Saraiki,Married,14,5,4,Completed therapy
+17/6/2020,n7l3HD9fUT,47,Male,No education,Punjabi,Married,17,13,1,Loss to Follow-up
+17/6/2020,vNAztCGe5b,55,Female,No education,Saraiki,Married,10,13,1,Loss to Follow-up
+17/6/2020,5vtMX9Blez,40,Female,No education,Saraiki,Married,7,9,1,Loss to Follow-up
+17/6/2020,dmkujEwsVh,41,Female,Primary or Islamic education,Saraiki,Married,12,10,1,Loss to Follow-up
+17/6/2020,3ICNSrMhg9,50,Male,Bachelors,Urdu,Married,12,13,1,Loss to Follow-up
+17/6/2020,sQUdw1blXj,31,Female,No education,Sindhi,Married,7,8,3,Completed therapy
+17/6/2020,SYpMQAHRUE,56,Female,No education,Saraiki,Married,13,13,1,Loss to Follow-up
+17/6/2020,42RIkfioHK,28,Female,Primary or Islamic education,,,8,10,3,Completed therapy
+17/6/2020,WDVh4agzGx,28,Male,Primary or Islamic education,Sindhi,Married,16,12,3,Completed therapy
+18/6/2020,BpPJMqaXgi,52,Female,Primary or Islamic education,,,8,11,1,Loss to Follow-up
+18/6/2020,lpz1B0Fgh5,45,Male,Secondary or matric,Urdu,Others,24,17,1,Loss to Follow-up
+18/6/2020,t2xlhoqfwI,26,Male,Primary or Islamic education,,,11,10,3,Completed therapy
+18/6/2020,5xic4QRNur,31,Male,Bachelors,Urdu,Married,3,4,3,Completed therapy
+18/6/2020,KMEf57VjNW,55,Female,Primary or Islamic education,,Others,8,7,3,Completed therapy
+18/6/2020,RILgTXywCP,29,Female,Primary or Islamic education,Sindhi,Married,7,8,3,Completed therapy
+18/6/2020,GAZa42ne3b,24,Female,Primary or Islamic education,,,21,16,2,Loss to Follow-up
+18/6/2020,FzcyJl8jLa,69,Female,Primary or Islamic education,,,14,9,1,Loss to Follow-up
+18/6/2020,wM2Z0rjG3n,23,Female,Bachelors,Bengali,Unmarried,13,12,1,Refuse
+18/6/2020,S8lsuNJt5b,30,Female,Primary or Islamic education,,,8,9,1,Loss to Follow-up
+19/6/2020,tFjyOnMXkQ,20,Female,No education,Sindhi,Married,7,6,4,Completed therapy
+19/6/2020,cvaFpbDuCI,28,Male,Intermediate,Sindhi,Married,16,18,3,Completed therapy
+19/6/2020,C8YV4NfElW,21,Male,Intermediate,Sindhi,Unmarried,9,9,4,Completed therapy
+19/6/2020,gZqBmE0xoC,19,Female,No education,Sindhi,Married,7,8,4,Completed therapy
+19/6/2020,2hNPgJMyF0,24,Female,No education,Saraiki,Married,10,3,1,Loss to Follow-up
+19/6/2020,bEXVl5U9zW,44,Male,Primary or Islamic education,Urdu,Married,6,3,2,Refuse
+20/6/2020,bSMfBNiC0n,28,Male,Primary or Islamic education,Sindhi,Married,9,11,1,Loss to Follow-up
+20/6/2020,H5zFpDmKXh,65,Female,No education,Saraiki,Married,14,14,1,Loss to Follow-up
+20/6/2020,JXsf5TQoyR,51,Female,No education,Saraiki,Married,16,17,2,Loss to Follow-up
+20/6/2020,SWVX8HI9QR,41,Female,Secondary or matric,Urdu,Married,16,12,5,Loss to Follow-up
+20/6/2020,QOENzdnBps,30,Male,Primary or Islamic education,,,18,9,2,Loss to Follow-up
+20/6/2020,YywdocRMSl,49,Female,No education,Saraiki,Married,13,12,3,Completed therapy
+20/6/2020,p0zt2UFKRg,47,Female,Intermediate,Urdu,Married,18,9,1,Loss to Follow-up
+20/6/2020,eXaUAh2WTC,41,Female,No education,Saraiki,Married,10,11,1,Loss to Follow-up
+20/6/2020,e3n9rGHySU,33,Female,Secondary or matric,Urdu,Married,20,18,3,Completed therapy
+20/6/2020,dmkna5GThW,35,Male,Secondary or matric,Urdu,Unmarried,3,2,1,Refuse
+20/6/2020,XTQSPK2d8Y,16,Male,Secondary or matric,Urdu,Unmarried,16,15,2,Loss to Follow-up
+21/6/2020,ZN5Pn0KrMJ,35,Female,No education,Balochi,Married,13,9,3,Completed therapy
+21/6/2020,Z65BEvIiYQ,45,Female,No education,Sindhi,Married,7,8,1,Refuse
+21/6/2020,vKQXMefwNS,36,Female,Primary or Islamic education,Sindhi,Married,12,10,2,Refuse
+21/6/2020,VYGzgtvk2B,45,Male,Primary or Islamic education,,,8,8,5,Completed therapy
+21/6/2020,ixguqySUrL,40,Female,Primary or Islamic education,,,7,7,3,Completed therapy
+21/6/2020,bm5SLTwKhN,18,Female,No education,Balochi,Married,12,13,1,Loss to Follow-up
+21/6/2020,mbz6FiOYJA,35,Male,No education,Sindhi,Married,11,15,1,Loss to Follow-up
+21/6/2020,c3NVolWSC4,20,Female,No education,Saraiki,Unmarried,9,7,1,Refuse
+21/6/2020,FaLhe3HuvA,37,Female,Primary or Islamic education,Saraiki,Married,14,11,3,Completed therapy
+21/6/2020,epqo3aP07I,41,Female,Secondary or matric,Gujrati,Married,12,10,1,Loss to Follow-up
+22/6/2020,cmZdb2GSMi,40,Female,Primary or Islamic education,Saraiki,,9,10,1,Loss to Follow-up
+22/6/2020,zPdJR3AV74,33,Female,Primary or Islamic education,,,16,0,1,Loss to Follow-up
+22/6/2020,EGoO2FRbHM,56,Female,Primary or Islamic education,Saraiki,Married,14,8,3,Completed therapy
+22/6/2020,LqJ1aPTUxK,61,Female,No education,Saraiki,Others,21,15,3,Completed therapy
+22/6/2020,qvLWQJZP9O,48,Female,Primary or Islamic education,Urdu,Others,13,7,1,Loss to Follow-up
+22/6/2020,D4rGH7FhwN,21,Male,No education,Saraiki,Unmarried,14,16,1,Loss to Follow-up
+22/6/2020,iy5pQ4KOWF,20,Female,Primary or Islamic education,Saraiki,Married,13,10,,Loss to Follow-up
+24/6/2020,qvPBnjrJGC,22,Female,No education,Saraiki,Unmarried,11,5,1,Loss to Follow-up
+24/6/2020,8kboI3eGM2,32,Female,Intermediate,Urdu,Married,3,1,2,Refuse
+24/6/2020,aAPlSEvnu9,19,Female,Secondary or matric,Urdu,Unmarried,9,6,3,Completed therapy
+24/6/2020,1WeDk5h2NL,40,Female,Primary or Islamic education,Sindhi,,13,16,2,Loss to Follow-up
+24/6/2020,cbUju2xd7G,34,Female,Secondary or matric,Urdu,Married,27,21,1,Loss to Follow-up
+24/6/2020,elF5WA9fK0,41,Female,No education,Saraiki,Married,9,9,3,Loss to Follow-up
+24/6/2020,eJF09YtpnS,27,Female,Primary or Islamic education,Saraiki,Married,17,17,1,Loss to Follow-up
+24/6/2020,O8LlIh0ptj,55,Female,Secondary or matric,Urdu,Married,6,14,3,Completed therapy
+24/6/2020,mbnTuip2fg,28,Female,Primary or Islamic education,Saraiki,Married,5,2,3,Completed therapy
+24/6/2020,cgtKSyvu63,32,Female,No education,Saraiki,Married,8,11,2,Loss to Follow-up
+24/6/2020,eDHr42S8nQ,40,Male,No education,Saraiki,Others,10,11,1,Loss to Follow-up
+24/6/2020,MGVbO8fSTk,54,Male,Bachelors,Punjabi,Married,8,5,1,Loss to Follow-up
+24/6/2020,ftrhSNeOyb,53,Male,Bachelors,Urdu,Married,8,5,3,Completed therapy
+25/6/2020,ADVnwim3cp,32,Male,No education,Saraiki,Married,20,10,1,Loss to Follow-up
+25/6/2020,0kh3ofdV19,40,Female,Primary or Islamic education,,,8,8,1,Loss to Follow-up
+25/6/2020,iacC4GIL5H,42,Female,Primary or Islamic education,,,13,8,1,Loss to Follow-up
+26/6/2020,BriD0oyMxa,27,Male,Secondary or matric,Sindhi,Married,7,3,2,Loss to Follow-up
+26/6/2020,YGirpyQ9Nx,34,Female,No education,Saraiki,Married,17,16,3,Completed therapy
+26/6/2020,p1IBfAClju,39,Male,No education,Balochi,Unmarried,18,11,3,Completed therapy
+26/6/2020,pwoDTzs8l6,48,Male,Secondary or matric,Punjabi,Married,17,13,1,Loss to Follow-up
+26/6/2020,o2lSxTYiBc,36,Female,Primary or Islamic education,Saraiki,Married,20,17,3,Completed therapy
+26/6/2020,8T734cjd59,30,Female,No education,,Married,14,10,1,Loss to Follow-up
+26/6/2020,i1Ufxr6R0G,45,Female,No education,Saraiki,Married,9,9,2,Loss to Follow-up
+26/6/2020,6pfKW7ZM2s,38,Female,No education,Sindhi,Married,7,8,3,Completed therapy
+27/6/2020,8gAJDxQGe3,51,Female,No education,Saraiki,Married,13,12,2,Loss to Follow-up
+27/6/2020,c3qHlsMG8O,25,Female,Secondary or matric,Sindhi,Married,12,11,2,Loss to Follow-up
+27/6/2020,RkWNwm0SMa,20,Male,Primary or Islamic education,,,14,11,3,Completed therapy
+99/99/9999,AeRuhyGkZ5,20,Male,Primary or Islamic education,,,20,18,3,Completed therapy
+27/6/2020,LuqwgnU8lE,24,Female,Intermediate,Pushto,Married,4,6,3,Completed therapy
+27/6/2020,yF8ngNV6rj,42,Female,Primary or Islamic education,,Married,10,7,3,Completed therapy
+27/6/2020,9tNAJjpMEy,40,Female,No education,Saraiki,Married,17,16,3,Completed therapy
+4/2/2020,oI4FABmC0i,30,Female,Primary or Islamic education,,,15,4,2,Completed therapy
+4/2/2020,PfsGg3iHDT,47,Male,Secondary or matric,Urdu,Married,16,7,5,Completed therapy
+6/3/2020,JShzY5wIoP,26,Female,No education,Balochi,Married,13,12,3,Completed therapy
+6/3/2020,ctEm1N5uvQ,22,Female,No education,Balochi,Married,7,6,2,Refuse
+6/3/2020,KXmQPei76b,44,Male,No education,Pushto,Married,17,7,4,Completed therapy
+6/3/2020,wYE8AdZyDJ,32,Female,Secondary or matric,Saraiki,Married,16,11,1,Loss to Follow-up
+6/3/2020,nhKU7NHRkL,18,Female,Primary or Islamic education,Saraiki,Unmarried,19,14,1,Loss to Follow-up
+6/3/2020,VQhKL4go5x,26,Female,No education,Balochi,Others,16,13,3,Completed therapy
+6/3/2020,nGVSMsQ2cq,25,Female,Primary or Islamic education,Sindhi,,20,14,3,Completed therapy
+6/3/2020,PKiwVhQtIz,40,Male,Primary or Islamic education,,Unmarried,12,6,1,Loss to Follow-up
+6/3/2020,iO2lW9JzmS,42,Male,No education,Sindhi,Married,21,19,1,Loss to Follow-up
+6/3/2020,f7W2mv3s60,37,Female,No education,Saraiki,Married,18,15,3,Completed therapy
+6/3/2020,YpD5XVorTW,19,Female,Primary or Islamic education,,,6,8,2,Loss to Follow-up
+6/3/2020,iTKye1r7vH,50,Female,Primary or Islamic education,Punjabi,Others,10,7,3,Completed therapy
+5/4/2020,eq4V8vRrMw,30,Male,Secondary or matric,Sindhi,Unmarried,1,3,3,Completed therapy
+5/4/2020,hM74FQ0lty,20,Male,Primary or Islamic education,Urdu,Unmarried,12,11,1,Loss to Follow-up
+5/4/2020,Ntg5GmP63v,28,Female,No education,Saraiki,Married,9,7,2,Refuse
+5/4/2020,cfRgZdwKLN,23,Female,Primary or Islamic education,,,7,17,1,Loss to Follow-up
+5/4/2020,C7KLdb9elj,33,Female,No education,Urdu,Married,16,13,5,Completed therapy
+5/4/2020,be2IayRo4Y,20,Male,Secondary or matric,Saraiki,Married,22,12,2,Loss to Follow-up
+5/4/2020,xPbSR6OXnz,21,Female,Secondary or matric,Saraiki,Unmarried,19,15,3,Completed therapy
+6/5/2020,UzkrQhPsO5,61,Female,Primary or Islamic education,,,12,8,3,Completed therapy
+6/5/2020,y3QSOCxumJ,28,Female,No education,Saraiki,Married,14,15,3,Completed therapy
+6/5/2020,AkwKqHOd2x,36,Male,Primary or Islamic education,,,13,11,2,Loss to Follow-up
+6/5/2020,rK72AgeHMd,49,Female,Intermediate,Urdu,Others,11,5,2,Loss to Follow-up
+6/5/2020,fnWy6L5hcR,28,Female,Intermediate,Punjabi,Unmarried,12,13,3,Completed therapy
+6/5/2020,Xc8gI1JMYn,27,Female,No education,Saraiki,Married,14,16,2,Loss to Follow-up
+6/5/2020,P5Inv8wgjk,23,Male,Primary or Islamic education,,,13,9,3,Completed therapy
+6/5/2020,WYTOniBjtV,63,Female,Primary or Islamic education,,,12,12,1,Loss to Follow-up
+6/5/2020,REm5guwV4O,32,Female,Intermediate,Urdu,Married,12,9,2,Refuse
+6/5/2020,Un0KA6bvOt,24,Male,Primary or Islamic education,Urdu,Married,9,6,1,Loss to Follow-up
+6/5/2020,HRX6YAmIT7,25,Male,Primary or Islamic education,,,25,16,1,Loss to Follow-up
+5/6/2020,e0zBqLWRwn,16,Female,Primary or Islamic education,,,15,10,1,Loss to Follow-up
+5/6/2020,34rldfhPC9,46,Male,Primary or Islamic education,Sindhi,Married,17,12,2,Refuse
+5/6/2020,50HbGpflPW,28,Female,No education,Sindhi,Married,17,12,1,Loss to Follow-up
+5/6/2020,NUdKrTS1CG,31,Female,Secondary or matric,Urdu,Married,8,8,3,Completed therapy
+5/6/2020,gM97ZXPn6p,37,Female,Primary or Islamic education,Urdu,Married,8,11,1,Loss to Follow-up
+5/6/2020,Zqj7RzNXav,23,Female,Intermediate,Saraiki,Married,9,5,1,Loss to Follow-up
+5/6/2020,RPXQUVpuxm,40,Female,Primary or Islamic education,,,19,12,2,Loss to Follow-up
+6/7/2020,udLzstKfYD,42,Female,Primary or Islamic education,Saraiki,Married,13,12,1,Loss to Follow-up
+6/7/2020,SjKePZ0Wxo,18,Female,Intermediate,Punjabi,Married,21,15,1,Loss to Follow-up
+6/7/2020,FyGoSrB6V3,16,Female,Primary or Islamic education,Saraiki,Unmarried,18,20,1,Refuse
+6/7/2020,MB30i5xRUh,41,Female,No education,Sindhi,Married,10,11,4,Completed therapy
+6/7/2020,1874FouTeS,18,Female,Primary or Islamic education,Saraiki,Married,13,11,3,Completed therapy
+5/9/2020,iXyA0V9pxK,40,Female,Primary or Islamic education,Sindhi,Others,11,10,3,Completed therapy
+5/9/2020,Mj05dpzHKS,19,Female,Primary or Islamic education,,,8,5,1,Loss to Follow-up
+5/9/2020,Ut0YFJjqVs,28,Female,Secondary or matric,Saraiki,Married,17,14,1,Loss to Follow-up
+5/9/2020,sPb8CnUFRZ,45,Male,Primary or Islamic education,,,25,17,1,Loss to Follow-up
+5/9/2020,UuQj4JAkda,38,Female,Primary or Islamic education,Sindhi,Married,7,8,2,Loss to Follow-up
+5/9/2020,GRU6arsgmY,29,Female,Secondary or matric,Urdu,Unmarried,26,18,3,Completed therapy
+6/10/2020,L9FaHYuW03,38,Male,Primary or Islamic education,,Married,8,3,1,Loss to Follow-up
+6/10/2020,H7Fe5KCM20,29,Female,Primary or Islamic education,,,14,6,1,Loss to Follow-up
+6/10/2020,clCBw5mYdz,54,Female,No education,Punjabi,Others,22,15,3,Completed therapy
+6/10/2020,63kHjWXzQm,27,Male,Primary or Islamic education,Sindhi,Married,7,6,2,Loss to Follow-up
+6/10/2020,GIC6cadSPz,31,Female,Primary or Islamic education,Saraiki,Married,13,16,3,Completed therapy
+6/10/2020,So9IGa0yXU,39,Female,Primary or Islamic education,,,11,4,3,Completed therapy
+6/10/2020,O74Vno6Sj0,73,Male,Primary or Islamic education,Sindhi,Married,21,14,4,Completed therapy
+6/10/2020,ZeUKEvxPGj,32,Male,Masters,Urdu,Married,20,13,2,Refuse
+6/10/2020,unVhvgfdXS,37,Female,Primary or Islamic education,,,17,18,1,Loss to Follow-up
+6/10/2020,5ACEKnTh9q,19,Female,Primary or Islamic education,Balochi,,16,13,3,Completed therapy
+6/10/2020,Kf7Atm9pRe,30,Female,Primary or Islamic education,Sindhi,,13,12,1,Loss to Follow-up
+6/10/2020,RDP5x64Ime,17,Male,Secondary or matric,Saraiki,Married,12,14,1,Loss to Follow-up
+6/10/2020,5P0pQydZGm,53,Male,Intermediate,Hindko,Married,7,10,4,Completed therapy
+5/11/2020,VAwqbm9B1D,31,Female,Primary or Islamic education,,,21,19,3,Completed therapy
+5/11/2020,8OBZMoWz7C,51,Male,Secondary or matric,Urdu,Married,9,8,1,Loss to Follow-up
+5/11/2020,1LDFz3HnO7,35,Female,Primary or Islamic education,Saraiki,,18,12,1,Loss to Follow-up
+5/11/2020,xfj9SQGD7M,57,Female,Primary or Islamic education,Saraiki,Married,18,15,1,Loss to Follow-up
+5/11/2020,5O1skIQrHD,44,Female,Secondary or matric,Punjabi,Married,13,10,3,Completed therapy
+5/11/2020,bM3nl9izUw,36,Male,Primary or Islamic education,Sindhi,Married,11,7,3,Completed therapy
+5/11/2020,hHpPxLfdtI,21,Male,Secondary or matric,Hindko,Others,15,9,4,Completed therapy
+5/11/2020,WeGCHDNUIL,60,Female,No education,Saraiki,Married,19,16,1,Loss to Follow-up
+11/7/2020,Dl1Jk4bVGu,30,Female,Primary or Islamic education,,,15,11,1,Loss to Follow-up
+11/7/2020,lIpSRPCuqV,23,Female,Primary or Islamic education,Sindhi,,18,17,3,Completed therapy
+11/7/2020,CBVqFjtE2l,35,Female,No education,Sindhi,Married,15,9,3,Completed therapy
+11/7/2020,Gh8itExvyK,45,Female,No education,Sindhi,Married,21,9,1,Loss to Follow-up
+11/7/2020,X1bi9mA0Jp,17,Female,Primary or Islamic education,Sindhi,Unmarried,13,12,1,Loss to Follow-up
+11/7/2020,bFILGiCdJH,41,Female,No education,Saraiki,Married,10,9,1,Loss to Follow-up
+13/7/2020,fVG9KDF1ay,37,Male,Primary or Islamic education,Hindko,Married,6,7,1,Loss to Follow-up
+13/7/2020,pQ4iFqTnYD,51,Male,Intermediate,Urdu,Married,10,9,3,Completed therapy
+13/7/2020,Napoe59Zrv,17,Male,Secondary or matric,Sindhi,Unmarried,6,4,1,Loss to Follow-up
+13/7/2020,gDVroZn1X4,16,Female,No education,Sindhi,Married,9,10,1,Loss to Follow-up
+15/7/2020,NUgqVCOJ0F,50,Female,Primary or Islamic education,Saraiki,Married,8,10,3,Completed therapy
+15/7/2020,IKtHbQ8eam,36,Female,Primary or Islamic education,Urdu,Married,5,7,3,Completed therapy
+15/7/2020,mbXWVOF5jr,41,Female,Primary or Islamic education,Urdu,Married,10,16,2,Refuse
+15/7/2020,ird37p1cs8,50,Male,No education,Sindhi,Married,14,8,2,Loss to Follow-up
+15/7/2020,LxfVlIBM1j,44,Female,Primary or Islamic education,Saraiki,,17,12,3,Completed therapy
+15/7/2020,sf4Y39kAGC,23,Female,Intermediate,Urdu,Unmarried,11,9,5,Completed therapy
+16/7/2020,gOlqZUPQoL,45,Female,No education,Saraiki,Married,10,13,2,Loss to Follow-up
+16/7/2020,DpsQLzZRA4,30,Female,Primary or Islamic education,Saraiki,,14,11,3,Completed therapy
+16/7/2020,PGWlcr9L5C,32,Female,Primary or Islamic education,Punjabi,Married,20,12,1,Loss to Follow-up
+16/7/2020,OoWHjkiMK1,22,Male,No education,Saraiki,Married,10,9,2,Loss to Follow-up
+16/7/2020,9X2rnToAmz,52,Female,Primary or Islamic education,Pushto,Married,10,8,1,Loss to Follow-up
+16/7/2020,GnSmIAl0re,42,Female,Primary or Islamic education,Punjabi,Married,21,17,1,Loss to Follow-up
+16/7/2020,sIFWSRkfny,43,Female,No education,Saraiki,Married,21,10,1,Loss to Follow-up
+16/7/2020,6fm47wYidZ,30,Male,Primary or Islamic education,Sindhi,Married,18,13,4,Completed therapy
+16/7/2020,6cYRm7K2qH,34,Female,No education,Sindhi,Married,9,6,1,Loss to Follow-up
+16/7/2020,P7gxekdE8i,26,Female,Primary or Islamic education,Saraiki,,12,7,3,Completed therapy
+17/7/2020,G1DExlabqt,36,Male,Primary or Islamic education,Saraiki,,15,6,3,Completed therapy
+17/7/2020,GPuRaUreCJ,22,Male,Secondary or matric,Saraiki,Married,11,11,1,Loss to Follow-up
+17/7/2020,I90GP7ofLQ,43,Female,Primary or Islamic education,Saraiki,Married,7,11,3,Completed therapy
+17/7/2020,gJpBxtrRe5,40,Female,No education,Balochi,Others,12,9,2,Refuse
+17/7/2020,ko9yCjcJgf,49,Male,Secondary or matric,Sindhi,Married,4,7,3,Completed therapy
+18/7/2020,fgEXtCbGoY,20,Female,Secondary or matric,Punjabi,Married,13,11,1,Loss to Follow-up
+18/7/2020,YjwfyXVgqz,37,Female,No education,Saraiki,Married,13,13,1,Loss to Follow-up
+18/7/2020,WhqtAEiNZl,25,Female,No education,Sindhi,Married,8,7,3,Completed therapy
+18/7/2020,hmTPNzUYlL,50,Female,No education,Saraiki,Married,14,12,3,Completed therapy
+18/7/2020,dSXFrZQL4P,35,Female,Bachelors,Urdu,Married,14,15,1,Loss to Follow-up
+18/7/2020,3O51ZTYVL9,35,Female,No education,Saraiki,Married,14,14,2,Loss to Follow-up
+18/7/2020,SfPaduZRgm,52,Female,No education,Saraiki,Married,11,9,2,Refuse
+19/7/2020,oAbqWpSxjv,35,Female,Primary or Islamic education,Balochi,Married,12,10,3,Completed therapy
+19/7/2020,XzjERIDbpV,35,Female,Secondary or matric,Urdu,Married,11,11,3,Completed therapy
+19/7/2020,s4y6gK9kz8,20,Female,Primary or Islamic education,Pushto,Married,16,13,3,Completed therapy
+19/7/2020,amk25bJUNo,40,Female,Primary or Islamic education,Saraiki,,17,14,3,Completed therapy
+19/7/2020,HK8dvFXhQY,28,Female,No education,Saraiki,Married,14,14,1,Loss to Follow-up
+19/7/2020,PhJ4HKu6UV,30,Male,Primary or Islamic education,Hindko,Married,11,9,1,Refuse
+20/7/2020,ZzyPsUg8vm,58,Female,Primary or Islamic education,Urdu,Others,11,13,1,Loss to Follow-up
+20/7/2020,5VJMmeXYCv,52,Female,Intermediate,Saraiki,Married,5,7,3,Completed therapy
+20/7/2020,iT6ZcFJbK1,35,Female,No education,Saraiki,Married,19,15,3,Completed therapy
+20/7/2020,a8AihIgRrF,49,Female,Primary or Islamic education,Saraiki,,13,14,2,Loss to Follow-up
+20/7/2020,ZTA6buBgcS,16,Female,No education,Saraiki,Unmarried,19,17,3,Completed therapy
+20/7/2020,JSIQ6BWcy7,45,Female,Secondary or matric,Punjabi,Married,17,15,1,Loss to Follow-up
+22/7/2020,9exn0A2HI3,24,Female,Primary or Islamic education,Sindhi,Married,15,13,3,Completed therapy
+22/7/2020,L8ao0juclx,64,Female,Primary or Islamic education,Pushto,Married,15,13,1,Loss to Follow-up
+22/7/2020,RCDn8o2BXQ,36,Female,Secondary or matric,Urdu,,7,7,3,Completed therapy
+22/7/2020,9cNgjBCQpX,50,Female,No education,Saraiki,Married,17,13,3,Completed therapy
+22/7/2020,A9FWV7e65R,30,Female,Secondary or matric,Sindhi,Married,8,9,3,Completed therapy
+22/7/2020,6RkYyVHXzh,27,Female,No education,Sindhi,Married,9,9,1,Loss to Follow-up
+22/7/2020,1o2ryONTG6,49,Female,Primary or Islamic education,Saraiki,Others,16,15,3,Completed therapy
+22/7/2020,Cu7F5dfwLc,23,Female,No education,Saraiki,Married,13,11,1,Refuse
+22/7/2020,9M7C5pb4IW,45,Female,Primary or Islamic education,Other.,Married,10,9,3,Loss to Follow-up
+22/7/2020,HnB7K19Xkj,40,Female,Secondary or matric,Urdu,Married,8,5,3,Completed therapy
+23/7/2020,MicaZu8nls,33,Male,Intermediate,Pushto,Married,15,18,4,Completed therapy
+23/7/2020,DuCRtfMcvP,44,Female,No education,Saraiki,Married,16,17,1,Loss to Follow-up
+23/7/2020,9SLU6zJ2Ds,50,Male,Primary or Islamic education,Saraiki,Married,17,14,1,Loss to Follow-up
+23/7/2020,L9ICn8becw,27,Female,No education,Saraiki,Married,14,14,3,Completed therapy
+24/7/2020,BAejYm7u2K,30,Female,Primary or Islamic education,Saraiki,,17,15,1,Loss to Follow-up
+24/7/2020,8PoUuc0WLK,48,Male,Secondary or matric,Punjabi,Married,22,21,3,Completed therapy
+24/7/2020,NCXUF9A15D,35,Female,Primary or Islamic education,Saraiki,Married,13,14,2,Loss to Follow-up
+24/7/2020,NwxgbcCXIE,36,Female,Primary or Islamic education,Urdu,Married,8,11,1,Refuse
+24/7/2020,tvE6iT2HSf,36,Female,Primary or Islamic education,Punjabi,,9,10,3,Completed therapy
+25/7/2020,HW56cBX70h,16,Female,Primary or Islamic education,Saraiki,Married,14,14,3,Completed therapy
+25/7/2020,FhCnZ5gvqG,42,Male,Masters,Saraiki,Married,11,13,4,Completed therapy
+25/7/2020,vjAdwepVzU,20,Female,No education,Saraiki,Married,10,14,3,Completed therapy
+26/7/2020,bMT6kaHBYE,25,Female,Primary or Islamic education,Saraiki,Married,14,10,1,Loss to Follow-up
+26/7/2020,qP3anrmOv0,22,Female,Primary or Islamic education,Saraiki,Married,11,16,3,Completed therapy
+29/7/2020,jgXZU8YklT,42,Female,Secondary or matric,Punjabi,Married,14,12,2,Loss to Follow-up
+29/7/2020,EdNnjGt6iQ,32,Female,Primary or Islamic education,Urdu,Married,12,10,1,Loss to Follow-up
+29/7/2020,sESNQXbkAI,30,Female,No education,Urdu,Married,20,16,4,Completed therapy
+7/12/2019,QMDzcRitge,18,Female,Primary or Islamic education,Balochi,Unmarried,9,9,3,Completed therapy
+7/12/2019,Jg90OTLYvw,19,Male,Intermediate,Sindhi,Unmarried,3,5,1,Loss to Follow-up
+7/12/2019,oINHO8dv9T,22,Female,Primary or Islamic education,Pushto,Married,19,14,4,Completed therapy
+7/12/2019,VoL4EDy38g,35,Female,Bachelors,Urdu,Married,15,10,3,Completed therapy
+7/12/2019,BrJcIW7SY5,29,Male,Masters,Pushto,Unmarried,14,16,5,Completed therapy
+7/1/2020,SNywRKoWzF,30,Female,No education,Saraiki,Married,17,15,1,Loss to Follow-up
+7/1/2020,ysQcBgHEVP,19,Female,Primary or Islamic education,Saraiki,Married,15,14,3,Completed therapy
+7/1/2020,KndmDIrXa5,33,Female,Secondary or matric,Urdu,Married,27,21,3,Completed therapy
+7/1/2020,b7fJXIOFHS,24,Male,Secondary or matric,Saraiki,Unmarried,15,12,5,Completed therapy
+5/2/2020,QFZNxjv1do,39,Female,Primary or Islamic education,Sindhi,Married,17,10,1,Loss to Follow-up
+5/2/2020,1cFRymnDel,25,Female,Primary or Islamic education,Saraiki,Married,17,14,1,Loss to Follow-up
+5/2/2020,n1u8Gr0hCd,35,Female,Primary or Islamic education,Sindhi,,12,11,1,Loss to Follow-up
+5/2/2020,wRC4Tobl2j,37,Female,Primary or Islamic education,Pushto,Others,8,14,3,Completed therapy
+5/2/2020,mWCq8ngb5z,26,Female,Bachelors,Punjabi,Others,13,13,4,Completed therapy
+5/2/2020,wA2DZQpP7R,38,Female,No education,Sindhi,Married,8,8,3,Completed therapy
+5/2/2020,ZL46TqrCaE,43,Female,Primary or Islamic education,Sindhi,Married,10,10,3,Completed therapy
+7/3/2020,klj8DFg4RE,25,Female,Primary or Islamic education,Sindhi,,13,10,1,Loss to Follow-up
+7/3/2020,Xovij2ORuL,50,Female,No education,Urdu,Others,17,11,1,Loss to Follow-up
+7/3/2020,soUWSrwh5a,24,Female,Secondary or matric,Saraiki,Married,13,10,2,Loss to Follow-up
+7/3/2020,HG6cr0Cfgl,34,Female,Primary or Islamic education,Punjabi,,10,8,3,Completed therapy
+7/3/2020,ORiL23egAP,20,Female,No education,Saraiki,Married,15,12,2,Loss to Follow-up
+7/3/2020,6vTIFgbp98,20,Male,Secondary or matric,Pushto,Unmarried,18,15,2,Loss to Follow-up
+7/3/2020,AHxYcs6M72,35,Female,No education,Sindhi,Married,11,8,1,Loss to Follow-up
+7/3/2020,b3cMEX0G7S,45,Female,Primary or Islamic education,Saraiki,,11,8,1,Loss to Follow-up
+7/3/2020,r9cgqImLTi,17,Female,No education,Saraiki,Married,12,11,1,Loss to Follow-up
+7/3/2020,uD3VW6Hse2,38,Female,No education,Balochi,Others,16,13,2,Loss to Follow-up
+6/4/2020,yWtAMvLoB2,33,Male,No education,Balochi,Married,10,9,3,Completed therapy
+6/4/2020,ieT8PtuRD0,47,Female,Secondary or matric,Urdu,Married,14,11,2,Loss to Follow-up
+6/4/2020,Ik2oejaPUx,40,Female,Primary or Islamic education,Saraiki,Married,12,13,3,Completed therapy
+6/4/2020,gFih4zPmTA,40,Female,Secondary or matric,Urdu,Married,9,8,1,Loss to Follow-up
+6/4/2020,SvDo6s3emJ,42,Male,No education,Sindhi,Married,14,11,3,Completed therapy
+6/4/2020,XpirZ3n8ml,28,Male,Bachelors,Urdu,Married,8,13,1,Refuse
+6/4/2020,qOzkaI4DX9,38,Female,Primary or Islamic education,Saraiki,,8,9,3,Completed therapy
+6/4/2020,kQbtJm7vwF,35,Female,Intermediate,Urdu,Married,21,13,5,Completed therapy
+6/6/2020,U6hR09mMTH,30,Male,Secondary or matric,Urdu,Married,13,10,2,Completed therapy
+6/6/2020,DpNobf4HiJ,36,Male,No education,Sindhi,Married,9,4,1,Loss to Follow-up
+6/6/2020,Z3GkXNIg1O,23,Female,Bachelors,Hindko,Unmarried,20,10,3,Completed therapy
+6/6/2020,wpDFQfl9uq,44,Female,No education,Sindhi,Married,10,11,1,Loss to Follow-up
+6/6/2020,9zw8Zsdoue,32,Female,Primary or Islamic education,Saraiki,,12,9,1,Loss to Follow-up
+6/6/2020,7MSaNbKDue,34,Male,Intermediate,Punjabi,Married,13,17,5,Completed therapy
+6/6/2020,SjsEJbqmA0,16,Female,Primary or Islamic education,Saraiki,Unmarried,12,19,1,Refuse
+6/6/2020,tMz9nogLP4,49,Female,No education,Saraiki,Others,21,12,2,Loss to Follow-up
+6/6/2020,s32rGPOjQ9,36,Female,Primary or Islamic education,Saraiki,,15,17,3,Completed therapy
+6/6/2020,lRrpzhAckC,47,Female,Secondary or matric,Hindko,Married,10,7,5,Referred
+7/7/2020,afjqnTW17B,28,Male,Secondary or matric,Sindhi,Married,12,12,1,Loss to Follow-up
+7/7/2020,3OdXKnibj6,17,Female,Primary or Islamic education,Saraiki,Married,14,14,3,Completed therapy
+7/7/2020,HAYLOZVeD3,47,Male,Primary or Islamic education,Urdu,Married,15,8,1,Refuse
+7/7/2020,Gp5rfkq9F3,35,Male,Primary or Islamic education,Sindhi,Married,11,6,1,Loss to Follow-up
+7/7/2020,GxV2LotavD,30,Female,Secondary or matric,Saraiki,Married,13,15,1,Loss to Follow-up
+7/7/2020,ViU9KGgRlQ,26,Male,Primary or Islamic education,Balochi,Unmarried,16,13,1,Loss to Follow-up
+7/7/2020,2VfB4GjKS6,18,Female,Primary or Islamic education,Pushto,Married,9,5,3,Completed therapy
+7/7/2020,ryUXDPOtK7,48,Female,No education,Punjabi,Others,20,15,3,Completed therapy
+7/7/2020,e5ivRhWgE2,45,Female,Primary or Islamic education,Sindhi,Others,10,11,1,Loss to Follow-up
+7/7/2020,KTAnbdBC35,30,Female,No education,Sindhi,Married,13,12,3,Completed therapy
+7/7/2020,GRqyha18Qr,35,Female,No education,Urdu,Married,11,9,1,Loss to Follow-up
+7/7/2020,5UioW7uEMk,34,Male,Primary or Islamic education,Saraiki,,15,7,3,Completed therapy
+7/7/2020,Iugx6izCsL,18,Female,Intermediate,Punjabi,Married,22,15,3,Completed therapy
+7/7/2020,K4E6UmMvyw,30,Female,Primary or Islamic education,Saraiki,Married,10,14,2,Loss to Follow-up
+7/8/2020,nMZIaUBreu,28,Female,Primary or Islamic education,Saraiki,Married,18,16,2,Loss to Follow-up
+7/8/2020,XY7UVMvPQJ,21,Female,Secondary or matric,Urdu,Married,6,6,1,Loss to Follow-up
+7/8/2020,XAERkmOWi8,61,Female,Primary or Islamic education,Urdu,,8,6,3,Completed therapy
+7/8/2020,IUVGudEyt5,34,Female,Primary or Islamic education,Saraiki,,12,10,2,Loss to Follow-up
+7/8/2020,46yMcGD8KR,30,Female,Primary or Islamic education,Sindhi,Others,18,16,3,Completed therapy
+7/8/2020,J9up0tcZ1j,19,Male,Primary or Islamic education,Punjabi,Unmarried,16,17,3,Completed therapy
+7/8/2020,thBwxSICjy,47,Female,Primary or Islamic education,Sindhi,,9,7,3,Completed therapy
+7/8/2020,7M6qWznUHA,26,Female,Secondary or matric,Saraiki,Married,9,11,3,Completed therapy
+7/8/2020,vOHVThcsel,36,Female,Primary or Islamic education,Sindhi,,12,13,1,Loss to Follow-up
+6/9/2020,Lj5AEwfZU6,32,Male,Primary or Islamic education,Urdu,Married,6,5,2,Refuse
+6/9/2020,hcOdL68nkU,32,Male,Secondary or matric,Urdu,Unmarried,11,6,2,Loss to Follow-up
+6/9/2020,YGqDkmlb83,18,Female,Primary or Islamic education,Saraiki,Married,12,11,3,Completed therapy
+6/9/2020,GpkcRqWOsT,21,Female,No education,Saraiki,Married,12,13,1,Loss to Follow-up
+6/9/2020,kWL5ADTpR6,25,Female,Primary or Islamic education,Saraiki,Unmarried,16,17,3,Completed therapy
+6/9/2020,0WIK3fib4O,46,Male,No education,Urdu,Married,11,6,5,Completed therapy
+6/9/2020,bT9NHijhPL,31,Male,Primary or Islamic education,Saraiki,,7,8,3,Completed therapy
+6/9/2020,NTMZYmeKQ0,36,Female,No education,Hindko,Others,21,16,3,Completed therapy
+7/10/2020,WsZ3v4ToYx,21,Female,Primary or Islamic education,Saraiki,Married,20,15,2,Loss to Follow-up
+7/10/2020,3Qh2nsNpy7,25,Female,Bachelors,Saraiki,Married,10,9,2,Loss to Follow-up
+7/10/2020,zsbMKYRxEA,42,Female,Primary or Islamic education,Urdu,Married,18,16,1,Loss to Follow-up
+7/10/2020,DznsNToEq6,18,Female,Primary or Islamic education,Balochi,,9,7,1,Loss to Follow-up
+7/10/2020,jEPlAYIcM4,27,Female,Bachelors,Sindhi,,8,13,5,Completed therapy
+7/10/2020,3DhFQ4SBJO,35,Female,Primary or Islamic education,Urdu,Married,13,6,3,Completed therapy
+6/11/2020,1UqPJlywOb,31,Female,Primary or Islamic education,Urdu,Married,14,8,1,Refuse
+6/11/2020,twQiCrsF2h,21,Female,Secondary or matric,Punjabi,Unmarried,15,15,3,Completed therapy
+6/11/2020,frvLt8h4a2,20,Male,Intermediate,Sindhi,Unmarried,11,10,3,Completed therapy
+6/11/2020,i7bodU4Bjt,29,Male,No education,Bengali,Married,17,15,2,Loss to Follow-up
+6/11/2020,sNSjDQyqI5,25,Female,Primary or Islamic education,Saraiki,,7,10,1,Loss to Follow-up
+6/11/2020,ZEwPkbGsI9,23,Female,No education,Saraiki,Married,15,16,2,Completed therapy
+6/11/2020,O6uboywNvG,35,Female,Secondary or matric,Urdu,Married,11,3,1,Refuse
+12/8/2020,M3fQAIiTtX,20,Female,Intermediate,Punjabi,Unmarried,13,9,1,Refuse
+12/8/2020,sPLpxRQteA,45,Female,No education,Urdu,Married,21,15,3,Completed therapy
+12/8/2020,zb6CBnv0GA,38,Female,Primary or Islamic education,Saraiki,Married,15,13,1,Loss to Follow-up
+12/8/2020,wyI6YuiSDm,20,Female,Secondary or matric,Saraiki,Unmarried,14,11,5,Completed therapy
+12/8/2020,GVbyRTSNJo,32,Female,Primary or Islamic education,Sindhi,Married,13,10,2,Loss to Follow-up
+12/8/2020,xZGwChucnb,41,Female,Primary or Islamic education,Balochi,Married,13,10,1,Loss to Follow-up
+12/8/2020,T7LB09EXjP,39,Female,Primary or Islamic education,Urdu,Married,13,10,3,Completed therapy
+13/8/2020,IlBeHRCM7J,30,Male,Primary or Islamic education,Sindhi,Married,8,7,1,Loss to Follow-up
+13/8/2020,WKC2j9HEf7,18,Male,Primary or Islamic education,Bengali,Unmarried,6,7,3,Completed therapy
+13/8/2020,2q4lmSNC7M,62,Male,No education,Pushto,Married,18,12,4,Completed therapy
+13/8/2020,5uocAy3JRP,30,Female,Bachelors,Punjabi,Married,18,11,3,Completed therapy
+13/8/2020,dkbrjwHtg2,24,Male,Primary or Islamic education,Punjabi,,5,7,3,Completed therapy
+13/8/2020,Y6oIDRS5TW,24,Female,Secondary or matric,Urdu,Married,8,12,2,Loss to Follow-up
+13/8/2020,dPvYzOf15q,20,Male,Primary or Islamic education,Sindhi,,11,9,3,Completed therapy
+13/8/2020,IrViUsZYFc,51,Male,Secondary or matric,Urdu,Unmarried,7,10,3,Completed therapy
+14/8/2020,HfBAK1Jkgo,31,Female,Primary or Islamic education,Saraiki,Married,8,8,3,Completed therapy
+14/8/2020,DWu6TNVdc3,28,Female,Primary or Islamic education,Saraiki,Married,16,14,2,Loss to Follow-up
+14/8/2020,iC9bEkrBgt,26,Female,Secondary or matric,Punjabi,Married,13,13,,Refuse
+14/8/2020,sLQpmMIcH9,44,Female,No education,Gujrati,Others,7,7,4,Completed therapy
+14/8/2020,vYewUomQNf,33,Female,Intermediate,Urdu,Married,10,10,2,Loss to Follow-up
+14/8/2020,uXlmIsUoSv,36,Female,Secondary or matric,Saraiki,Married,11,16,3,Completed therapy
+14/8/2020,3Dbu8YfH7M,27,Male,No education,Punjabi,Unmarried,12,15,3,Completed therapy
+14/8/2020,jH1xv2nXi4,18,Male,Primary or Islamic education,Saraiki,,14,13,1,Loss to Follow-up
+15/8/2020,YwFungZEdh,40,Female,No education,Sindhi,Married,9,9,2,Loss to Follow-up
+15/8/2020,pvbRkjMBKW,40,Female,Primary or Islamic education,Punjabi,Others,10,6,1,Loss to Follow-up
+15/8/2020,hBIANZ1tPG,39,Female,No education,Other.,Married,9,7,1,Loss to Follow-up
+15/8/2020,evP3rAz1lT,32,Female,Secondary or matric,Punjabi,,12,13,3,Completed therapy
+15/8/2020,Vdnx8kJ2rw,47,Female,Primary or Islamic education,Hindko,Others,12,7,3,Completed therapy
+16/8/2020,P69GXWyCDf,37,Female,Primary or Islamic education,Pushto,Married,13,9,3,Completed therapy
+16/8/2020,HpgQqOs8Si,53,Female,No education,Other.,Others,20,11,5,Completed therapy
+16/8/2020,jkb4BrHmIF,41,Male,Secondary or matric,Urdu,Married,18,10,1,Loss to Follow-up
+16/8/2020,faEwo5VGUy,50,Female,Primary or Islamic education,Sindhi,Married,16,15,5,Completed therapy
+16/8/2020,wWmlv812Mk,25,Female,No education,Saraiki,Married,15,11,3,Completed therapy
+17/8/2020,giWp5mZEko,48,Female,Intermediate,Pushto,Married,8,7,3,Completed therapy
+17/8/2020,nNHO8egRKk,37,Female,Primary or Islamic education,Saraiki,Married,19,10,3,Completed therapy
+17/8/2020,Zxl4gBztv3,16,Female,Secondary or matric,Urdu,Unmarried,11,9,4,Completed therapy
+17/8/2020,mDiGFUwacj,50,Female,Intermediate,Punjabi,Married,8,6,4,Completed therapy
+17/8/2020,mSHk5GhEWM,22,Male,No education,Sindhi,Unmarried,10,11,1,Loss to Follow-up
+17/8/2020,cqLs1b2xSh,30,Female,No education,Urdu,Married,15,8,3,Completed therapy
+17/8/2020,eLXzNYBWlH,24,Female,No education,Sindhi,Married,12,16,1,Loss to Follow-up
+17/8/2020,iToVKMN4DR,19,Male,No education,Saraiki,Unmarried,7,4,2,Refuse
+17/8/2020,JaY9Wdkw3L,30,Female,No education,Saraiki,Married,12,10,1,Loss to Follow-up
+19/8/2020,RMkC4IXuEW,37,Female,No education,Saraiki,Married,11,11,1,Loss to Follow-up
+19/8/2020,2eBi8FpY97,38,Female,No education,Saraiki,Married,21,14,3,Completed therapy
+19/8/2020,Y7pSkJC5BA,49,Female,No education,Saraiki,Married,10,5,3,Completed therapy
+19/8/2020,XDsLZpjTY4,42,Male,No education,Sindhi,Married,6,5,1,Loss to Follow-up
+19/8/2020,hgdOKkGEDV,17,Male,Primary or Islamic education,Saraiki,Unmarried,10,12,3,Completed therapy
+19/8/2020,6aQJb2frLk,32,Female,Masters,Punjabi,Married,9,10,1,Refuse
+19/8/2020,AHPLDCjQB3,30,Female,Primary or Islamic education,Saraiki,Married,16,14,1,Loss to Follow-up
+19/8/2020,TAgx3EC0wf,26,Female,Secondary or matric,Punjabi,Married,11,9,4,Completed therapy
+19/8/2020,hqyGtV50RT,27,Female,Bachelors,Urdu,,9,11,1,Loss to Follow-up
+19/8/2020,iKPg6Tn0kp,34,Female,Intermediate,Urdu,Married,15,8,1,Loss to Follow-up
+19/8/2020,hVWMn0UsdN,28,Female,Secondary or matric,Punjabi,Others,11,10,3,Completed therapy
+19/8/2020,s7m21TgHSx,33,Female,Secondary or matric,Urdu,Married,15,9,3,Completed therapy
+19/8/2020,1NseyrhTtC,33,Male,Intermediate,Hindko,Married,16,7,5,Completed therapy
+19/8/2020,vCuUsJSo3r,40,Female,Secondary or matric,Punjabi,Others,11,8,1,Loss to Follow-up
+20/8/2020,8P5wWENzka,64,Male,Primary or Islamic education,Saraiki,Married,16,15,3,Completed therapy
+20/8/2020,HXIdalwBM1,23,Female,No education,Saraiki,Married,9,11,3,Completed therapy
+20/8/2020,EPZHo2WIpi,31,Female,Intermediate,Urdu,Married,8,2,5,Completed therapy
+20/8/2020,hZBacsrWE9,22,Female,Primary or Islamic education,Saraiki,Married,14,14,3,Completed therapy
+20/8/2020,x3h0AFMUvO,55,Male,Secondary or matric,Urdu,Married,11,10,1,Loss to Follow-up
+20/8/2020,mdnNPfEMWI,26,Female,No education,Saraiki,Married,22,16,1,Refuse
+20/8/2020,d48bhXgOSw,40,Female,Intermediate,Urdu,Married,7,5,3,Completed therapy
+20/8/2020,r7bU8RCiNa,33,Male,No education,Saraiki,Married,17,11,3,Completed therapy
+20/8/2020,2esJLaPYW0,26,Male,No education,Sindhi,Married,17,12,3,Completed therapy
+20/8/2020,hlqw0zQnYL,32,Female,No education,Sindhi,Married,16,11,3,Completed therapy
+21/8/2020,uFEjKxleiX,33,Female,Primary or Islamic education,Saraiki,,15,12,5,Completed therapy
+21/8/2020,sFAm45YeOR,24,Female,No education,Saraiki,Married,15,14,,Loss to Follow-up
+21/8/2020,ET5sa9DNWo,42,Female,Secondary or matric,Sindhi,Married,19,21,3,Completed therapy
+21/8/2020,kJg2SEdtTP,35,Female,Bachelors,Urdu,Married,7,2,3,Completed therapy
+21/8/2020,CV7ey3R5lY,58,Male,Bachelors,Urdu,Married,12,6,2,Completed therapy
+21/8/2020,ZIi7OgEtqP,24,Male,Secondary or matric,Saraiki,Married,11,5,1,Loss to Follow-up
+22/8/2020,kTx9YfsXlZ,54,Female,Primary or Islamic education,Punjabi,Married,5,3,3,Completed therapy
+22/8/2020,JGw0A2lk9H,24,Male,Secondary or matric,Saraiki,Married,11,8,3,Completed therapy
+22/8/2020,AehKCS20cZ,34,Female,Primary or Islamic education,Sindhi,,11,10,3,Completed therapy
+22/8/2020,eLWsnkDBr7,22,Female,Primary or Islamic education,Saraiki,Married,14,9,3,Completed therapy
+22/8/2020,zsuCLS6cEX,18,Male,Secondary or matric,Saraiki,Unmarried,13,11,3,Completed therapy
+22/8/2020,nC8V7w9R3q,22,Female,Secondary or matric,Urdu,Married,11,8,1,Loss to Follow-up
+23/8/2020,aKgGYBdx1I,40,Female,No education,Sindhi,Others,8,10,3,Completed therapy
+23/8/2020,nSlZwTq9JB,39,Female,No education,Saraiki,Married,7,14,1,Loss to Follow-up
+23/8/2020,BUYXdk1Fmt,80,Male,No education,Urdu,Married,4,2,4,Completed therapy
+23/8/2020,xKdcQkeUf5,24,Female,Masters,Punjabi,Unmarried,15,13,5,Completed therapy
+24/8/2020,E2cF7QD8Aq,55,Female,No education,Urdu,Married,11,7,4,Completed therapy
+24/8/2020,OBkypVU7SH,42,Female,Secondary or matric,Urdu,Married,11,13,2,Loss to Follow-up
+24/8/2020,c2lhpE7A6Y,46,Female,No education,Punjabi,Married,5,7,1,Loss to Follow-up
+26/8/2020,Vd0Ikm3eKv,34,Female,Masters,Urdu,Married,16,14,1,Refuse
+26/8/2020,EBLXPWRigA,23,Female,No education,Sindhi,Married,15,10,2,Loss to Follow-up
+26/8/2020,oTbemVlKju,33,Male,No education,Sindhi,Married,9,6,1,Loss to Follow-up
+26/8/2020,LW6XmSy5kJ,52,Male,Primary or Islamic education,Balochi,,15,7,2,Loss to Follow-up
+26/8/2020,rSzKYokbhc,20,Female,Secondary or matric,Punjabi,Unmarried,8,3,4,Completed therapy
+27/8/2020,LyNaU7zAOP,51,Male,Primary or Islamic education,Urdu,Married,13,11,4,Completed therapy
+27/8/2020,DS9xMcRkoV,32,Female,Bachelors,Urdu,Married,4,5,1,Refuse
+27/8/2020,oW4NgMrLHw,25,Female,Intermediate,Urdu,,17,16,1,Loss to Follow-up
+27/8/2020,4hXyudeCfa,56,Female,Primary or Islamic education,Saraiki,,8,6,1,Loss to Follow-up
+27/8/2020,hKbF9MXUul,35,Male,No education,Sindhi,Married,15,12,2,Loss to Follow-up
+27/8/2020,hNlBf49wRq,43,Female,Primary or Islamic education,Pushto,Married,8,7,1,Loss to Follow-up
+27/8/2020,yOnU46akoZ,35,Female,Primary or Islamic education,Balochi,,10,6,3,Completed therapy
+27/8/2020,9oUtwZ8R5e,18,Female,No education,Saraiki,Married,14,16,1,Loss to Follow-up
+28/8/2020,2sCLRGvzFw,36,Male,Bachelors,Saraiki,Married,15,12,1,Referred
+28/8/2020,Y2WTkaH1nj,31,Female,Secondary or matric,Urdu,Married,16,11,1,Refuse
+28/8/2020,7eXxnk9qrC,34,Female,Primary or Islamic education,Saraiki,Married,13,13,3,Completed therapy
+28/8/2020,lJb2Yoev1u,23,Female,No education,Sindhi,Married,8,5,3,Completed therapy
+31/9/2020,8CWt3pHr4j,25,Female,Primary or Islamic education,Sindhi,,11,10,2,Loss to Follow-up
+8/12/2019,logPsZTXwy,22,Female,No education,Saraiki,Married,11,10,3,Completed therapy
+8/12/2019,vWrha7wHxI,31,Female,Primary or Islamic education,Sindhi,Married,16,11,1,Loss to Follow-up
+8/12/2019,IKdfjgoUsh,47,Female,Primary or Islamic education,Punjabi,Married,21,13,1,Loss to Follow-up
+8/12/2019,aUBQVvM8Ep,28,Male,Secondary or matric,Saraiki,Married,21,17,3,Completed therapy
+8/12/2019,1n9tkamOSM,52,Male,Intermediate,Urdu,Married,15,17,3,Completed therapy
+8/1/2020,8JyX6ECBFi,37,Male,Secondary or matric,Urdu,Unmarried,13,12,3,Completed therapy
+8/1/2020,IMoJnrdHmv,55,Female,Secondary or matric,Hindko,Married,5,7,1,Loss to Follow-up
+8/1/2020,sAKTrfDPRV,25,Female,Secondary or matric,Urdu,Unmarried,15,13,1,Referred
+8/1/2020,N1weDBIiCn,20,Male,No education,Sindhi,Married,23,20,,Referred
+8/1/2020,XOy45DiwKz,41,Female,Secondary or matric,Urdu,Married,12,11,6,Completed therapy
+8/1/2020,d5HRNn3gc6,22,Female,Primary or Islamic education,Sindhi,,9,10,2,Completed therapy
+6/2/2020,5unOd8J97W,17,Female,Secondary or matric,Urdu,,8,10,5,Completed therapy
+6/2/2020,ZYvjBSenhA,18,Female,Primary or Islamic education,Sindhi,Unmarried,13,13,2,Loss to Follow-up
+6/2/2020,Th3v2FQcmu,42,Female,No education,Punjabi,Married,13,10,5,Completed therapy
+7/4/2020,bqgWswYOPi,21,Male,Primary or Islamic education,Sindhi,Married,13,5,1,Loss to Follow-up
+7/4/2020,zoGT1aAHiv,38,Female,Primary or Islamic education,Saraiki,,18,11,3,Completed therapy
+8/5/2020,n8sWelMPZU,36,Female,No education,Sindhi,Married,9,9,1,Loss to Follow-up
+8/5/2020,ePaLts7zZy,49,Female,Primary or Islamic education,Saraiki,,14,9,3,Completed therapy
+7/6/2020,VA4FHIzsWN,39,Female,No education,Saraiki,Married,16,14,1,Loss to Follow-up
+7/6/2020,CaT8nrq3KM,20,Female,Primary or Islamic education,Sindhi,,11,10,3,Completed therapy
+7/6/2020,XiyAf9pvZB,36,Female,Primary or Islamic education,Saraiki,Married,13,11,3,Completed therapy
+8/7/2020,am0iI9wUMd,24,Female,Secondary or matric,Urdu,Married,17,11,1,Loss to Follow-up
+8/7/2020,4TKt6MHylb,31,Female,Bachelors,Saraiki,Married,8,11,4,Completed therapy
+8/7/2020,OGYlPoZLUa,47,Female,No education,Sindhi,Married,12,8,2,Loss to Follow-up
+8/8/2020,kqNHr8e6bw,20,Female,Primary or Islamic education,Saraiki,Married,14,11,,Refuse
+8/8/2020,lBzh59ZKpV,27,Female,Intermediate,Saraiki,Married,6,9,3,Completed therapy
+8/8/2020,o6w0QlOps2,34,Female,No education,Saraiki,Married,8,10,3,Completed therapy
+8/8/2020,o9et8BJNMn,20,Female,Primary or Islamic education,Saraiki,Married,14,10,2,Completed therapy
+8/8/2020,6RyiGQ8sjC,48,Male,Intermediate,Sindhi,Married,13,11,1,Loss to Follow-up
+8/8/2020,zhHJP12Gat,30,Female,Intermediate,Urdu,Married,20,11,1,Loss to Follow-up
+8/8/2020,PW3MUt5vjZ,59,Male,No education,Urdu,Married,16,13,2,Refuse
+7/9/2020,Hc7sYjFE4e,31,Female,Primary or Islamic education,Saraiki,Married,14,10,1,Loss to Follow-up
+7/9/2020,kKS5jeVqvI,36,Female,Primary or Islamic education,Sindhi,,12,11,1,Loss to Follow-up
+7/9/2020,a6Xvjt8U4B,39,Female,No education,Sindhi,Married,10,10,1,Loss to Follow-up
+7/9/2020,ZeJT92xHc3,35,Female,No education,Saraiki,Married,11,9,3,Completed therapy
+7/9/2020,GjC21OS8Ub,23,Male,Intermediate,Sindhi,Unmarried,23,15,2,Loss to Follow-up
+7/11/2020,OtPBFwoJcR,63,Female,Primary or Islamic education,Saraiki,Others,12,7,3,Completed therapy
+7/11/2020,rsABnwKtp1,38,Male,No education,Sindhi,Married,12,17,1,Loss to Follow-up
+7/11/2020,sKTZIorMd4,42,Female,No education,Saraiki,Married,6,9,1,Loss to Follow-up
+7/11/2020,p17SM9K4Vw,35,Female,Primary or Islamic education,Saraiki,Married,16,14,1,Loss to Follow-up
+10/9/2020,nCFKy1Y6ed,46,Male,No education,Saraiki,Married,11,11,1,Refuse
+10/9/2020,OEB154tNWa,40,Female,No education,Saraiki,Married,16,18,4,Loss to Follow-up
+11/9/2020,38MVwDgHQL,36,Female,Primary or Islamic education,Saraiki,Others,16,12,3,Completed therapy
+11/9/2020,pntFyZ7WJ6,19,Female,Primary or Islamic education,Saraiki,Married,16,14,1,Loss to Follow-up
+11/9/2020,iW6mlhSUPb,38,Female,No education,Punjabi,Married,13,11,3,Completed therapy
+11/9/2020,7Nbh4FlULR,24,Female,Secondary or matric,Bengali,Married,7,8,1,Loss to Follow-up
+11/9/2020,BMhnmiNO42,21,Female,Primary or Islamic education,Saraiki,,19,5,3,Completed therapy
+11/9/2020,W7aCo6xB3N,51,Female,Primary or Islamic education,Saraiki,Married,11,10,1,Loss to Follow-up
+11/9/2020,PUbZQIYXnl,37,Female,Secondary or matric,Punjabi,Married,11,11,3,Referred
+11/9/2020,Yxvw7JRESH,24,Female,Primary or Islamic education,Saraiki,Married,17,12,1,Refuse
+12/9/2020,G93XVFLhmE,35,Female,Primary or Islamic education,Saraiki,Married,17,15,3,Completed therapy
+12/9/2020,ocsCHu8kgT,26,Female,Secondary or matric,Punjabi,Married,8,11,3,Completed therapy
+13/9/2020,GMVL0EdWXo,40,Female,Primary or Islamic education,Sindhi,Married,13,14,1,Loss to Follow-up
+13/9/2020,buvNxMDR6m,47,Female,Intermediate,Punjabi,Others,19,20,1,Loss to Follow-up
+13/9/2020,MGsngpZyc6,43,Female,Primary or Islamic education,Punjabi,,19,18,1,Loss to Follow-up
+13/9/2020,LCQovHysKz,47,Male,Primary or Islamic education,Saraiki,,20,0,1,Loss to Follow-up
+13/9/2020,DtNF1nyHB8,45,Female,No education,Saraiki,Married,12,10,3,Completed therapy
+13/9/2020,vTJW0KnBgp,23,Female,Primary or Islamic education,Punjabi,,16,14,3,Completed therapy
+13/9/2020,bH2WvMDJUT,26,Female,Secondary or matric,Saraiki,Married,12,16,1,Loss to Follow-up
+14/9/2020,uEPjeSygVA,33,Male,Primary or Islamic education,Urdu,Married,12,10,8,Completed therapy
+14/9/2020,02SesoKGYz,24,Male,Primary or Islamic education,Sindhi,Married,7,13,2,Completed therapy
+14/9/2020,eq8aRtMJAc,24,Female,Intermediate,Saraiki,Married,12,10,3,Completed therapy
+14/9/2020,TQM6VWJlmn,34,Female,Primary or Islamic education,Urdu,Married,8,9,3,Completed therapy
+16/9/2020,yPLaeWJYI8,23,Male,Secondary or matric,Urdu,Unmarried,10,10,6,Completed therapy
+16/9/2020,QcdDyraHzW,45,Female,No education,Sindhi,Married,16,10,1,Loss to Follow-up
+16/9/2020,dmzVCkRuig,54,Female,No education,Sindhi,Married,9,9,2,Loss to Follow-up
+16/9/2020,jDZsWmRMHv,11,Female,Primary or Islamic education,Punjabi,,14,15,3,Completed therapy
+16/9/2020,KYkTvtm8Dd,20,Female,Primary or Islamic education,Saraiki,Married,15,13,3,Completed therapy
+16/9/2020,rfyHshgevu,45,Female,Secondary or matric,Punjabi,Married,10,9,4,Completed therapy
+17/9/2020,6smAPCWxiZ,38,Female,Intermediate,Urdu,Married,6,9,3,Completed therapy
+17/9/2020,zn4v1xmeC0,30,Female,Primary or Islamic education,Saraiki,,19,17,3,Completed therapy
+17/9/2020,JOuFcksXR1,52,Female,Primary or Islamic education,Hindko,Married,12,11,4,Completed therapy
+17/9/2020,SguTicdOFK,23,Female,Intermediate,Pushto,,9,9,3,Completed therapy
+17/9/2020,BsEQGTClJi,33,Female,Secondary or matric,Urdu,Unmarried,19,11,3,Completed therapy
+18/9/2020,h5Ydiv6gSA,21,Female,Primary or Islamic education,Pushto,Unmarried,11,7,1,Loss to Follow-up
+18/9/2020,e3ljb8pd1J,34,Male,Secondary or matric,Sindhi,Married,18,16,1,Loss to Follow-up
+18/9/2020,jfQ97GCqWi,48,Female,Secondary or matric,Urdu,Married,17,12,3,Completed therapy
+19/9/2020,IGM0WHaxfE,25,Female,Primary or Islamic education,Sindhi,,10,14,1,Loss to Follow-up
+19/9/2020,VARdXQE07T,38,Female,No education,Sindhi,Married,13,11,2,Loss to Follow-up
+19/9/2020,S2jAdsO90V,25,Female,Secondary or matric,Punjabi,Married,12,8,2,Loss to Follow-up
+19/9/2020,mvkOb8nW5Y,40,Female,Primary or Islamic education,Sindhi,Married,20,15,1,Loss to Follow-up
+19/9/2020,FYO6fVxALJ,45,Female,No education,Balochi,Others,20,15,3,Completed therapy
+20/9/2020,0rKdX9NypC,33,Female,Secondary or matric,Urdu,Married,5,3,4,Completed therapy
+20/9/2020,krRamsFB6X,62,Male,Secondary or matric,Urdu,Married,9,5,3,Completed therapy
+20/9/2020,d7VtHFTIS6,27,Female,Primary or Islamic education,Saraiki,Married,16,15,1,Refuse
+20/9/2020,W9IwyuigLC,29,Male,No education,Sindhi,Married,17,5,1,Loss to Follow-up
+20/9/2020,xmWd5r4hJE,45,Female,Primary or Islamic education,Saraiki,,16,13,3,Completed therapy
+20/9/2020,ikw7zZrWjP,47,Female,Primary or Islamic education,Saraiki,,10,7,1,Loss to Follow-up
+21/9/2020,JZHi47nTI5,31,Female,Primary or Islamic education,Saraiki,,14,10,3,Completed therapy
+21/9/2020,iICeMXUda2,22,Male,Secondary or matric,Urdu,Unmarried,17,19,1,Loss to Follow-up
+21/9/2020,SqG1yPjHOe,28,Female,Secondary or matric,Pushto,Married,10,5,1,Loss to Follow-up
+21/9/2020,MV8YCDA70t,35,Female,Primary or Islamic education,Saraiki,Married,15,10,2,Completed therapy
+23/9/2020,MHnlXqvPQ6,42,Female,No education,Pushto,,9,10,3,Completed therapy
+23/9/2020,FiSc3Rt9M8,24,Female,Intermediate,Other.,,1,3,3,Completed therapy
+23/9/2020,XG9UdYPn2J,30,Female,Secondary or matric,Hindko,Unmarried,13,9,3,Completed therapy
+23/9/2020,RGLOKBHTDw,20,Male,Secondary or matric,Urdu,Unmarried,14,13,3,Completed therapy
+23/9/2020,CJVfB34hTF,24,Female,Secondary or matric,Punjabi,,6,5,3,Completed therapy
+23/9/2020,X3l7WeUcQI,42,Female,Intermediate,Urdu,Unmarried,9,4,3,Completed therapy
+23/9/2020,YSt5CVeFbj,35,Female,No education,Urdu,Married,9,7,1,Loss to Follow-up
+24/9/2020,KTr9XqHgVc,50,Female,No education,Sindhi,Others,18,14,2,Loss to Follow-up
+24/9/2020,hcyol1NkEm,50,Female,No education,Saraiki,Married,7,7,3,Completed therapy
+24/9/2020,lpGx09ymWz,20,Female,Secondary or matric,Pushto,Unmarried,6,6,,Loss to Follow-up
+24/9/2020,2eL6flRi7N,35,Female,No education,Sindhi,Married,11,11,3,Completed therapy
+24/9/2020,BomHpMr1vZ,20,Female,Primary or Islamic education,Saraiki,Unmarried,17,12,3,Completed therapy
+24/9/2020,HJ8esfYcTw,30,Male,Secondary or matric,Pushto,Married,11,8,1,Loss to Follow-up
+25/9/2020,odVitFxew1,45,Female,Secondary or matric,Urdu,Married,15,14,3,Completed therapy
+25/9/2020,9O61N7av5C,17,Male,Intermediate,Urdu,Unmarried,14,12,3,Completed therapy
+25/9/2020,0uIP7RQbc8,54,Female,No education,Urdu,Others,14,18,1,Refuse
+26/9/2020,UVG0ulWXtL,24,Female,Masters,Urdu,Unmarried,13,12,3,Completed therapy
+26/9/2020,snFLIxoptE,24,Male,Secondary or matric,Pushto,Unmarried,16,7,1,Loss to Follow-up
+26/9/2020,Br4lQXwSMn,18,Female,Intermediate,Urdu,Unmarried,12,16,1,Refuse
+26/9/2020,wiIU9F6Q4j,50,Male,No education,Sindhi,Married,11,12,2,Loss to Follow-up
+26/9/2020,US4fuWXvbO,32,Female,Primary or Islamic education,Saraiki,Married,4,10,3,Completed therapy
+26/9/2020,5jsvEwlAby,37,Female,Secondary or matric,Urdu,Married,13,11,3,Completed therapy
+26/9/2020,m2w1fqrbpD,49,Male,Primary or Islamic education,Saraiki,,6,9,3,Completed therapy
+26/9/2020,gcRMTfQWzh,33,Female,Primary or Islamic education,Sindhi,,12,13,1,Loss to Follow-up
+28/9/2020,09c7xIOVS6,36,Female,Bachelors,Urdu,Married,9,5,2,Refuse
+28/9/2020,gmjPN6ikTD,40,Female,Primary or Islamic education,Urdu,Others,15,9,1,Loss to Follow-up
+9/1/2020,RHjr7ZTp65,39,Female,Primary or Islamic education,Saraiki,Married,13,14,2,Completed therapy
+9/1/2020,kiL8jrGBhU,62,Male,Bachelors,Saraiki,Others,3,3,3,Completed therapy
+7/2/2020,FGxcd57jv0,25,Female,Primary or Islamic education,Pushto,Married,4,7,1,Loss to Follow-up
+7/2/2020,6sWLfCwY1V,18,Female,Primary or Islamic education,Saraiki,,16,11,7,Completed therapy
+7/2/2020,tjg7cPWNfd,25,Female,No education,Saraiki,Married,15,8,3,Completed therapy
+7/2/2020,Xob3L2Nk9H,30,Female,Primary or Islamic education,Saraiki,Married,17,14,1,Loss to Follow-up
+7/2/2020,z14luUOcyg,41,Male,Primary or Islamic education,Saraiki,Married,9,4,3,Completed therapy
+7/2/2020,Son9DN6BMk,42,Female,No education,Saraiki,Others,13,6,3,Completed therapy
+9/3/2020,dJVeyW93Pi,27,Female,Secondary or matric,Punjabi,,14,8,3,Completed therapy
+9/3/2020,oS5xdEr3wg,50,Female,Primary or Islamic education,Saraiki,,17,17,1,Loss to Follow-up
+9/3/2020,pQsvAmY27x,22,Female,Primary or Islamic education,Balochi,Others,12,11,3,Completed therapy
+9/3/2020,xohatZBqvz,22,Female,Secondary or matric,Pushto,Married,10,7,3,Loss to Follow-up
+9/3/2020,9oE8cXFDbA,35,Male,No education,Sindhi,Married,15,14,1,Loss to Follow-up
+8/4/2020,rFVvaCKe2g,28,Female,No education,Saraiki,Married,7,3,3,Completed therapy
+8/4/2020,L8N5qGMrFm,35,Female,Secondary or matric,Punjabi,Married,12,11,3,Completed therapy
+8/4/2020,J2Yfb4GZki,40,Female,Primary or Islamic education,Sindhi,Others,8,9,1,Loss to Follow-up
+8/4/2020,QYpaGjeiEK,48,Female,Intermediate,Saraiki,Married,17,15,1,Loss to Follow-up
+8/4/2020,9i3IenDNZq,34,Female,Primary or Islamic education,Punjabi,Married,13,14,5,Completed therapy
+9/5/2020,v7QXUqIGYf,17,Female,Secondary or matric,Saraiki,Unmarried,10,14,1,Loss to Follow-up
+9/5/2020,ZXR24py5EC,40,Female,Secondary or matric,Urdu,Married,15,8,3,Completed therapy
+9/5/2020,LPQfIGxjE5,35,Female,Primary or Islamic education,Punjabi,Married,8,11,1,Loss to Follow-up
+9/5/2020,Ey4fuCPzUY,31,Female,No education,Urdu,Married,11,7,6,Completed therapy
+9/5/2020,8XkTSvNuja,50,Female,No education,Sindhi,Married,17,12,1,Loss to Follow-up
+9/5/2020,zBhdwqW1Hr,54,Female,Primary or Islamic education,Urdu,Married,13,10,3,Completed therapy
+9/5/2020,nzbMl1cyUO,41,Male,Primary or Islamic education,Saraiki,,19,16,1,Loss to Follow-up
+9/5/2020,moc8VEf1CR,24,Male,Primary or Islamic education,Saraiki,Married,22,21,2,Loss to Follow-up
+9/5/2020,nOgAcmjXrb,47,Female,Primary or Islamic education,Pushto,Married,10,11,4,Completed therapy
+9/5/2020,C2jJSM9V4O,34,Female,Bachelors,Urdu,,1,3,2,Loss to Follow-up
+9/5/2020,5Bt0Sjy3fp,19,Female,Primary or Islamic education,Sindhi,Unmarried,6,3,3,Completed therapy
+8/6/2020,SHGwfioYbE,21,Female,Primary or Islamic education,Saraiki,Married,10,9,3,Completed therapy
+8/6/2020,YejpT1Ktcu,41,Female,No education,Saraiki,Married,7,7,3,Completed therapy
+8/6/2020,k8c2IFliug,34,Female,Primary or Islamic education,Saraiki,,14,7,1,Loss to Follow-up
+8/6/2020,Kt7x53wG1W,44,Female,No education,Hindko,Married,16,7,1,Loss to Follow-up
+8/6/2020,AZMwruXWaj,45,Female,Secondary or matric,Hindko,,8,8,3,Completed therapy
+8/6/2020,yCslIXjJ7f,36,Male,Primary or Islamic education,Saraiki,,19,16,2,Loss to Follow-up
+8/6/2020,8scHrSNhvO,24,Female,Primary or Islamic education,Punjabi,,12,6,3,Completed therapy
+9/8/2020,oOslJIT1uq,18,Female,Secondary or matric,Hindko,Unmarried,19,18,5,Completed therapy
+9/8/2020,4bgwpeuNIO,18,Female,Secondary or matric,Saraiki,Married,14,10,4,Completed therapy
+9/8/2020,B4KXQdeRv0,26,Male,Secondary or matric,Pushto,Unmarried,19,10,3,Completed therapy
+9/8/2020,KaqxyE21HR,45,Female,No education,Punjabi,,14,17,1,Referred
+9/8/2020,Qew693XuAk,25,Male,No education,Balochi,Married,11,6,4,Completed therapy
+9/8/2020,etwTzoj6xi,21,Female,Primary or Islamic education,Pushto,Married,12,5,3,Completed therapy
+9/8/2020,S35CvOIuji,60,Female,No education,Saraiki,Married,7,8,5,Completed therapy
+9/8/2020,u5y6vPtBUj,36,Male,Primary or Islamic education,Sindhi,,14,10,2,Completed therapy
+9/8/2020,9TUjyw0IOf,28,Female,Secondary or matric,Pushto,Married,15,10,3,Completed therapy
+8/9/2020,wKFQMbRtrZ,37,Female,Primary or Islamic education,Saraiki,,18,5,3,Completed therapy
+8/9/2020,SzoDC4vjcU,42,Female,No education,Saraiki,Married,15,12,3,Completed therapy
+8/9/2020,aAz067VBro,18,Female,No education,Other.,Unmarried,4,5,1,Loss to Follow-up
+8/9/2020,OqQxlSVAMc,22,Female,No education,Sindhi,Unmarried,18,13,1,Loss to Follow-up
+8/9/2020,yV7IcPQHLq,43,Female,No education,Sindhi,Married,16,10,1,Loss to Follow-up
+8/9/2020,CsUSLKBJE9,23,Male,Primary or Islamic education,Saraiki,,13,11,1,Loss to Follow-up
+9/10/2020,NVwIAvambP,52,Female,Primary or Islamic education,Saraiki,Married,13,10,3,Completed therapy
+9/10/2020,3D0ZnvU2wz,30,Male,Secondary or matric,Other.,Married,12,10,5,Completed therapy
+9/10/2020,OG4wdDQSaT,37,Female,Primary or Islamic education,Punjabi,,10,8,1,Loss to Follow-up
+9/10/2020,ZvOl3ePGNo,42,Female,Primary or Islamic education,Saraiki,Married,18,18,6,Completed therapy
+9/10/2020,LIj7xAmi8U,35,Female,Primary or Islamic education,Saraiki,Married,7,8,5,Completed therapy
+8/11/2020,Hwjo6TMsmp,16,Male,Secondary or matric,Urdu,Unmarried,13,14,6,Completed therapy
+8/11/2020,eZ0A6BF8QI,18,Female,Secondary or matric,Urdu,Unmarried,8,8,3,Completed therapy
+8/11/2020,9gzxpJCyZo,44,Female,Secondary or matric,Urdu,Married,11,10,3,Loss to Follow-up
+8/11/2020,SkX9yHzE8e,55,Male,No education,Saraiki,Married,11,7,1,Refuse
+8/11/2020,hU6YgaDLRK,35,Female,Primary or Islamic education,Saraiki,Married,16,14,3,Completed therapy
+8/11/2020,XmZsyFwdVj,51,Female,Primary or Islamic education,Saraiki,,12,12,2,Completed therapy
+8/11/2020,KmTHI9bWQZ,46,Female,Primary or Islamic education,Urdu,,9,8,1,Loss to Follow-up
+8/11/2020,ZBnmGb9rOu,30,Female,No education,Saraiki,Married,12,8,1,Loss to Follow-up
+8/11/2020,rTIkLQ2fgl,25,Female,Primary or Islamic education,Saraiki,,21,18,1,Loss to Follow-up
+8/11/2020,rn4qESICVc,22,Female,Primary or Islamic education,Saraiki,,15,15,3,Completed therapy
+8/11/2020,9FRdLbOmZV,40,Female,Primary or Islamic education,Saraiki,,8,9,2,Loss to Follow-up
+8/11/2020,OksQADB3tj,33,Male,Primary or Islamic education,Saraiki,Married,15,8,2,Completed therapy
+8/11/2020,3zOH50iTqx,42,Female,Primary or Islamic education,Punjabi,,11,6,3,Completed therapy
+8/11/2020,6YcHsT29eu,22,Female,Secondary or matric,Pushto,Unmarried,4,1,1,Refuse
+8/11/2020,RdvLZQGn1q,38,Female,Primary or Islamic education,Urdu,Married,12,10,2,Completed therapy
+11/10/2020,Tbi1tB5cFS,38,Female,No education,Saraiki,Married,12,12,1,Loss to Follow-up
+11/10/2020,bUTJrolCBS,27,Male,No education,Sindhi,Others,12,13,3,Completed therapy
+11/10/2020,3as6zKkWey,44,Female,No education,Saraiki,Married,14,6,1,Loss to Follow-up
+11/10/2020,znEy0GWdix,26,Female,Secondary or matric,Urdu,Married,11,10,1,Loss to Follow-up
+11/10/2020,XD7NhW5zwm,36,Female,No education,Hindko,Married,14,9,5,Completed therapy
+11/10/2020,XzrsDp4dyq,40,Female,Primary or Islamic education,Punjabi,,13,9,1,Loss to Follow-up
+11/10/2020,sindEPIpA7,35,Male,Primary or Islamic education,Sindhi,Married,10,11,1,Loss to Follow-up
+11/10/2020,D1zGdSZhsE,40,Female,No education,Saraiki,Married,15,0,1,Loss to Follow-up
+11/10/2020,yFPWzfmUhu,41,Male,Secondary or matric,Saraiki,Married,13,17,4,Referred
+11/10/2020,WBib9fVDGv,45,Female,Primary or Islamic education,Bengali,Married,25,20,3,Completed therapy
+11/10/2020,gB903VdKRz,22,Female,No education,Saraiki,Married,12,8,3,Completed therapy
+11/10/2020,mNOoJi986E,47,Female,Secondary or matric,Urdu,Married,15,17,2,Loss to Follow-up
+11/10/2020,62ZjWGKgy5,22,Female,Intermediate,Urdu,Unmarried,8,7,3,Completed therapy
+11/10/2020,3mbq41FSgo,60,Female,Primary or Islamic education,Urdu,Others,14,11,2,Loss to Follow-up
+12/10/2020,VbDfLUo8Gz,31,Male,Secondary or matric,Pushto,Married,5,7,3,Completed therapy
+12/10/2020,o2ZrvQKsmn,31,Male,Secondary or matric,Urdu,Unmarried,6,4,1,Refuse
+12/10/2020,NRBfhubOod,53,Male,No education,Pushto,,7,4,3,Completed therapy
+12/10/2020,w4czenmJVQ,35,Female,Primary or Islamic education,Saraiki,Married,16,14,3,Completed therapy
+12/10/2020,GARyOap49j,16,Female,Primary or Islamic education,Saraiki,Unmarried,14,16,1,Loss to Follow-up
+12/10/2020,YHNh2Cs8xM,28,Female,Masters,Punjabi,Married,12,8,4,Refuse
+12/10/2020,EBHGKXhCFW,35,Female,Primary or Islamic education,Saraiki,Married,16,16,4,Completed therapy
+14/10/2020,wkpzatjuAT,23,Female,Intermediate,Pushto,Unmarried,7,6,2,Completed therapy
+14/10/2020,npR13ZM5SD,18,Female,Primary or Islamic education,Saraiki,Married,8,10,1,Refuse
+14/10/2020,PtsXTnKGx9,55,Female,No education,Urdu,Married,11,8,3,Completed therapy
+14/10/2020,40Wqnyd1Ba,30,Male,No education,Sindhi,Unmarried,14,13,2,Loss to Follow-up
+14/10/2020,gwaYSdMF0l,22,Female,Intermediate,Saraiki,Married,14,16,5,Completed therapy
+14/10/2020,9KwfWPSpMA,25,Female,No education,Saraiki,Married,17,12,3,Completed therapy
+14/10/2020,CK4JtrSbjx,30,Female,No education,Balochi,Married,9,10,1,Loss to Follow-up
+15/10/2020,ZKCJwnyDRX,32,Female,Primary or Islamic education,Saraiki,Married,18,14,3,Completed therapy
+15/10/2020,xjlSpCJhEM,40,Female,No education,Hindko,Married,9,3,3,Loss to Follow-up
+15/10/2020,HbjMyBSNpk,35,Female,No education,Saraiki,Married,16,13,3,Completed therapy
+15/10/2020,REBSszdniI,55,Male,Primary or Islamic education,Urdu,Married,11,7,4,Completed therapy
+15/10/2020,AFZC3eIpMu,43,Female,Secondary or matric,Urdu,,3,5,4,Completed therapy
+15/10/2020,BGYSXhyJF4,31,Female,Primary or Islamic education,Saraiki,,20,15,1,Loss to Follow-up
+15/10/2020,OYMbt6rQ1k,32,Female,Secondary or matric,Urdu,Married,12,6,4,Completed therapy
+15/10/2020,Fcvq7Dh8RY,19,Female,Intermediate,Urdu,Unmarried,9,8,4,Completed therapy
+15/10/2020,6DiuEJnhjG,20,Female,Primary or Islamic education,Saraiki,Married,13,13,3,Completed therapy
+15/10/2020,Iyzs8JPcH2,31,Male,Primary or Islamic education,Saraiki,,13,9,3,Completed therapy
+15/10/2020,hk9JWSx8FR,52,Female,No education,Punjabi,,7,8,3,Completed therapy
+16/10/2020,Bl20qOP9Gt,43,Female,Secondary or matric,Urdu,Married,8,6,2,Refuse
+16/10/2020,Q6jN3Owhgc,70,Female,Secondary or matric,English,,6,6,3,Completed therapy
+16/10/2020,zfPw6ET4ga,27,Female,Secondary or matric,Saraiki,Married,18,13,3,Completed therapy
+16/10/2020,bHlW8RnFUJ,41,Female,Primary or Islamic education,Urdu,,13,10,1,Loss to Follow-up
+16/10/2020,Nzv1TXAKVH,53,Female,Primary or Islamic education,Pushto,,7,7,3,Completed therapy
+16/10/2020,Ne9uEhqw5r,34,Female,No education,Hindko,,8,7,3,Completed therapy
+17/10/2020,YHGus2fo05,47,Female,No education,Urdu,Married,15,13,2,Loss to Follow-up
+17/10/2020,kjGCDwUyEX,30,Female,Intermediate,Hindko,Married,11,13,1,Referred
+17/10/2020,0zuN1y5TCG,28,Female,Primary or Islamic education,Saraiki,,20,13,1,Loss to Follow-up
+17/10/2020,k3hwbVZOGp,50,Female,Primary or Islamic education,Urdu,,20,15,1,Loss to Follow-up
+17/10/2020,7KcCo5UHrg,36,Female,Intermediate,Urdu,,11,4,3,Completed therapy
+17/10/2020,lj3VSTdkr4,53,Male,Intermediate,Other.,Married,16,11,3,Completed therapy
+18/10/2020,IKFANhGdmv,22,Female,Intermediate,Urdu,Unmarried,12,9,3,Completed therapy
+18/10/2020,QTmV7d1Kfi,59,Female,No education,Urdu,,3,6,3,Completed therapy
+18/10/2020,2jNiHOSVzE,31,Male,No education,Saraiki,Married,8,4,3,Completed therapy
+18/10/2020,kEjaJ4SRXb,47,Female,Primary or Islamic education,Urdu,Married,17,16,3,Completed therapy
+18/10/2020,gE4YIwbleG,35,Female,Intermediate,Urdu,Married,7,10,3,Completed therapy
+18/10/2020,CpzS4tojAK,40,Female,No education,Punjabi,Married,21,17,2,Loss to Follow-up
+19/10/2020,yahxC1cUWf,37,Female,Primary or Islamic education,Urdu,,8,14,3,Completed therapy
+19/10/2020,1oTCZ8sELO,30,Female,Secondary or matric,Sindhi,Married,17,14,2,Loss to Follow-up
+19/10/2020,hUvgKo917T,28,Male,Primary or Islamic education,Saraiki,,9,11,3,Completed therapy
+19/10/2020,Ffp86KbJA4,30,Female,Intermediate,Urdu,,14,12,5,Completed therapy
+21/10/2020,exB3dDKZlJ,41,Female,Primary or Islamic education,Punjabi,,19,16,3,Completed therapy
+21/10/2020,SZLx6ljGsp,32,Female,No education,Saraiki,Married,9,12,4,Referred
+21/10/2020,espJXdkVr1,39,Female,Secondary or matric,Saraiki,Married,6,10,3,Completed therapy
+21/10/2020,s53kcnoZRN,28,Male,Secondary or matric,Saraiki,Unmarried,16,13,3,Completed therapy
+21/10/2020,cJwE1MDFrn,44,Female,No education,Sindhi,Married,11,11,1,Loss to Follow-up
+21/10/2020,EquRe84to0,60,Female,No education,Sindhi,Married,2,2,1,Refuse
+21/10/2020,LSuHTfxeiN,50,Female,Primary or Islamic education,Urdu,Married,9,8,3,Loss to Follow-up
+22/10/2020,KVONnzfj8r,38,Male,Intermediate,Hindko,Married,7,5,2,Refuse
+22/10/2020,VMwnAJKGak,28,Female,Secondary or matric,Urdu,,7,4,3,Completed therapy
+22/10/2020,SsL3AJa8DX,44,Male,Secondary or matric,Sindhi,Married,13,10,1,Refuse
+22/10/2020,mdvf79n1kD,23,Female,Secondary or matric,Urdu,Unmarried,7,6,3,Completed therapy
+22/10/2020,BRNfLpnogt,24,Female,Primary or Islamic education,Saraiki,,19,9,2,Loss to Follow-up
+22/10/2020,ytJzv62iAE,16,Male,Primary or Islamic education,Saraiki,Unmarried,18,6,3,Completed therapy
+22/10/2020,P0HJMXtjoc,33,Female,Secondary or matric,Urdu,Married,11,4,2,Refuse
+23/10/2020,i510DybFdY,26,Female,Primary or Islamic education,Punjabi,Married,13,7,1,Loss to Follow-up
+23/10/2020,6jzYgOWhaQ,22,Female,Intermediate,Urdu,Unmarried,10,6,1,Loss to Follow-up
+23/10/2020,NC3vxlYMWu,40,Female,No education,Sindhi,Others,8,9,1,Loss to Follow-up
+23/10/2020,bB9a7DAWeE,38,Female,No education,Urdu,Married,12,8,1,Loss to Follow-up
+23/10/2020,jGawM4xPti,39,Female,Primary or Islamic education,Punjabi,,16,14,1,Refuse
+23/10/2020,L1WPhptXMH,40,Female,Primary or Islamic education,Urdu,Married,7,9,7,Completed therapy
+24/10/2020,HQfW0iu3yz,38,Female,Primary or Islamic education,Urdu,Married,18,6,3,Completed therapy
+24/10/2020,SXVjNBGxtz,35,Female,No education,Saraiki,Married,20,14,3,Referred
+24/10/2020,PhUl6dvVIe,46,Female,Masters,Urdu,Married,14,15,3,Completed therapy
+24/10/2020,e1RmxAaifH,44,Female,No education,Pushto,,8,7,3,Completed therapy
+24/10/2020,Y5VEc8Kn4F,27,Female,Primary or Islamic education,Sindhi,,10,11,1,Loss to Follow-up
+24/10/2020,PCiBgF0Nl3,35,Male,Masters,Pushto,Married,19,18,1,Loss to Follow-up
+24/10/2020,92H7PztGAW,41,Female,Primary or Islamic education,Saraiki,,19,12,1,Loss to Follow-up
+24/10/2020,oaxIdpQJ9B,50,Female,No education,Saraiki,Married,16,15,1,Loss to Follow-up
+24/10/2020,WZuCHrT9kj,45,Female,Secondary or matric,Pushto,Married,5,5,3,Completed therapy
+25/10/2020,u2AsU83Rip,23,Male,Intermediate,Pushto,Married,14,14,5,Completed therapy
+25/10/2020,lIzFaDEhAn,42,Female,Secondary or matric,Punjabi,,3,5,3,Completed therapy
+25/10/2020,cQ94mhYAfe,57,Female,Secondary or matric,Punjabi,,8,7,3,Completed therapy
+25/10/2020,wCGpi4nAXf,30,Female,Primary or Islamic education,Urdu,Married,16,11,1,Refuse
+25/10/2020,yu7Ato3K4G,18,Female,Primary or Islamic education,Pushto,Unmarried,13,6,3,Completed therapy
+25/10/2020,fW7nKpvLJ9,55,Female,Primary or Islamic education,Saraiki,,7,8,2,Loss to Follow-up
+25/10/2020,F2Yd6L47Bn,50,Female,No education,Pushto,,4,7,3,Completed therapy
+26/10/2020,rbPyqvfxRM,17,Female,Primary or Islamic education,Balochi,Unmarried,14,15,3,Completed therapy
+26/10/2020,BnfrOgKvTW,38,Female,Intermediate,Urdu,Married,10,14,6,Completed therapy
+26/10/2020,nkWFdvRlwa,39,Female,No education,Urdu,Married,11,12,1,Loss to Follow-up
+26/10/2020,Ec28hBR9nO,17,Female,Intermediate,Urdu,,9,9,3,Completed therapy
+26/10/2020,VoNbXRpqxi,40,Female,Primary or Islamic education,Sindhi,,13,15,1,Loss to Follow-up
+26/10/2020,LTfZwhngjk,36,Female,Secondary or matric,Urdu,Married,10,10,2,Loss to Follow-up
+28/10/2020,IHBxPT6YDp,37,Female,Secondary or matric,Urdu,Married,15,13,1,Loss to Follow-up
+28/10/2020,4z8TveudBX,30,Female,Primary or Islamic education,Urdu,Married,15,12,4,Loss to Follow-up
+28/10/2020,Mdqlw0HfU7,22,Female,Bachelors,Urdu,Married,20,17,2,Loss to Follow-up
+28/10/2020,7lNtoMcO65,19,Female,Primary or Islamic education,Saraiki,Unmarried,16,10,3,Completed therapy
+28/10/2020,RCzB7FIr0P,47,Female,No education,Pushto,,7,10,3,Completed therapy
+28/10/2020,BnOJblxXEo,18,Female,Intermediate,Saraiki,Unmarried,13,11,1,Refuse
+28/10/2020,S4EGXafodl,52,Female,Secondary or matric,Urdu,Married,6,7,4,Completed therapy
+10/12/2019,xqJ0AUoF8i,36,Female,Secondary or matric,Urdu,Married,14,6,2,Refuse
+10/12/2019,WoaZVMnCRx,45,Male,Intermediate,Sindhi,Married,21,18,1,Referred
+10/12/2019,lV7O8fNX64,24,Male,Primary or Islamic education,Saraiki,Married,13,5,3,Completed therapy
+10/12/2019,WUn0zZLRlJ,26,Female,Primary or Islamic education,Saraiki,,14,18,3,Completed therapy
+10/12/2019,PNR8lbjQS4,41,Female,Bachelors,Hindko,Married,15,10,2,Loss to Follow-up
+10/1/2020,sEl9t4HkdK,34,Male,No education,Saraiki,Married,7,5,3,Completed therapy
+10/1/2020,ke35yDzPNH,39,Female,No education,Saraiki,Married,19,19,7,Completed therapy
+10/1/2020,dsJSz4GbXY,22,Female,Intermediate,Saraiki,Married,13,6,1,Refuse
+10/1/2020,U0OX4m2tTz,46,Female,No education,Saraiki,Others,16,13,3,Completed therapy
+10/1/2020,hSNUj5eb2r,32,Female,Bachelors,Sindhi,Others,13,9,3,Completed therapy
+10/1/2020,oSrjOyLTtg,38,Female,Secondary or matric,Punjabi,,5,5,3,Completed therapy
+10/1/2020,qjXKTMcyvY,20,Female,Primary or Islamic education,Saraiki,Married,10,14,3,Completed therapy
+10/1/2020,IrHvGsFB7j,52,Female,No education,Urdu,Married,13,11,1,Refuse
+10/1/2020,1YfXPBC0LQ,40,Female,Primary or Islamic education,Saraiki,Others,18,13,1,Loss to Follow-up
+10/1/2020,fYxT10cpZz,41,Female,Secondary or matric,Punjabi,,11,10,3,Completed therapy
+10/1/2020,5jBuqROE9K,32,Male,Primary or Islamic education,Saraiki,Married,10,9,1,Loss to Follow-up
+8/2/2020,lMf1DI4nSj,40,Male,Bachelors,Punjabi,Others,8,1,3,Completed therapy
+8/2/2020,tIwQuk1xlv,56,Female,No education,Urdu,Married,22,19,3,Completed therapy
+8/2/2020,elIXABNFVf,39,Female,Primary or Islamic education,Saraiki,,20,17,3,Completed therapy
+10/3/2020,xXAOMzjKgJ,51,Female,Primary or Islamic education,Saraiki,,23,19,1,Loss to Follow-up
+10/3/2020,mBfOX9PNVo,70,Female,No education,Hindko,Married,17,14,3,Completed therapy
+10/3/2020,a7x8DIeHcC,50,Female,Secondary or matric,Punjabi,Married,14,13,3,Completed therapy
+9/4/2020,rcgFWeV6mK,40,Male,Bachelors,Other.,Married,11,10,3,Completed therapy
+9/4/2020,8nLa9OUxSj,45,Female,Primary or Islamic education,Urdu,Married,14,7,3,Completed therapy
+9/4/2020,s0xrWba5qR,29,Female,Primary or Islamic education,Saraiki,,16,13,3,Completed therapy
+9/4/2020,MI2C9EXa1W,16,Male,Intermediate,Punjabi,Unmarried,13,10,2,Refuse
+9/4/2020,TOEeDB3sw0,40,Male,Primary or Islamic education,Other.,Married,4,5,4,Completed therapy
+9/4/2020,etWvFfMjC4,24,Male,Primary or Islamic education,Saraiki,Married,9,14,3,Completed therapy
+9/6/2020,JMGHwl8n0m,63,Female,Primary or Islamic education,Punjabi,,11,14,3,Completed therapy
+9/6/2020,2SoFYAznrQ,42,Female,Primary or Islamic education,Punjabi,,27,18,3,Completed therapy
+9/6/2020,Mp1qGtN9AS,35,Female,No education,Saraiki,Married,8,6,1,Loss to Follow-up
+9/6/2020,Dzbc0HSBUk,30,Male,Secondary or matric,Saraiki,Married,7,9,3,Completed therapy
+9/6/2020,gMCpaB4KWU,46,Female,Primary or Islamic education,Punjabi,,14,17,3,Completed therapy
+9/6/2020,BZaiXrC6YO,62,Female,Primary or Islamic education,Other.,Others,8,5,3,Completed therapy
+9/6/2020,gbdG3IkNUm,35,Female,Primary or Islamic education,Saraiki,Married,7,10,3,Completed therapy
+9/6/2020,gv12IsRQLk,48,Female,Primary or Islamic education,Saraiki,,12,8,1,Loss to Follow-up
+9/6/2020,MTAd5Qef0n,28,Female,Primary or Islamic education,Urdu,,5,4,3,Completed therapy
+10/7/2020,oVvJu2I7Yq,46,Female,No education,Hindko,Others,20,11,2,Loss to Follow-up
+10/7/2020,w2LzXgORD0,46,Female,Secondary or matric,Urdu,Married,11,13,3,Loss to Follow-up
+10/7/2020,TylAVXcpn3,32,Female,Primary or Islamic education,Saraiki,,9,11,3,Completed therapy
+10/7/2020,VHXwpefND6,48,Female,Primary or Islamic education,Hindko,,17,14,1,Loss to Follow-up
+10/7/2020,umz9DQbKWd,47,Female,No education,Sindhi,Married,9,10,5,
+10/7/2020,QhJmA2kFI9,26,Male,Secondary or matric,Punjabi,Unmarried,8,11,3,Completed therapy
+10/7/2020,72PxbBWgvl,34,Female,No education,Punjabi,Married,11,10,4,Completed therapy
+10/7/2020,lj3xnmqsgo,40,Female,Primary or Islamic education,Balochi,Others,17,10,3,Completed therapy
+10/7/2020,UkvjYOLKVg,40,Female,Primary or Islamic education,Urdu,Married,10,9,2,Refuse
+10/8/2020,hXfdWvei8u,19,Male,Intermediate,Sindhi,Married,6,4,3,Completed therapy
+10/8/2020,c7XKShGOUm,35,Female,Primary or Islamic education,Hindko,Married,18,15,3,Completed therapy
+10/8/2020,mQrpvtIi5U,55,Female,Primary or Islamic education,Saraiki,,15,13,3,Completed therapy
+10/8/2020,l9tGiUnBfk,40,Female,No education,Urdu,Married,12,13,1,Loss to Follow-up
+10/8/2020,1k6pHnRE4J,28,Male,Secondary or matric,Pushto,Married,10,15,5,Referred
+10/8/2020,4C7mMIWXGJ,32,Female,Primary or Islamic education,Saraiki,,13,13,1,Loss to Follow-up
+10/8/2020,S5cKuAmn6H,29,Male,Secondary or matric,Urdu,Married,22,19,1,Loss to Follow-up
+10/8/2020,EphbM0sn3Y,65,Female,Secondary or matric,Urdu,Others,17,15,4,Completed therapy
+9/9/2020,R9QoaqcTrf,33,Male,Secondary or matric,Sindhi,Married,7,4,2,Refuse
+9/9/2020,6bcjfMo8La,38,Female,Secondary or matric,Saraiki,Others,18,17,2,Loss to Follow-up
+9/9/2020,1I8knCQAET,26,Female,Primary or Islamic education,Balochi,Married,19,15,2,Completed therapy
+9/9/2020,jgp41Kfdcl,50,Female,Primary or Islamic education,Punjabi,,12,6,3,Completed therapy
+9/9/2020,J3xSIB2PKH,35,Female,Secondary or matric,Hindko,,11,8,3,Completed therapy
+9/9/2020,Y3iW8o0leO,21,Female,Intermediate,Pushto,Married,12,15,1,Referred
+10/10/2020,u39JkbnIZy,35,Female,Secondary or matric,Urdu,Married,9,9,2,Loss to Follow-up
+10/10/2020,qoKyFd7kTl,35,Female,Intermediate,Urdu,Married,7,8,3,Refuse
+10/10/2020,aALRjf0GNX,69,Male,No education,Hindko,Married,5,9,2,Loss to Follow-up
+10/10/2020,1pDsQTJqFi,33,Female,Secondary or matric,Pushto,,6,11,3,Completed therapy
+10/10/2020,XAgbhH2OC5,27,Male,Primary or Islamic education,Pushto,Unmarried,5,6,3,Completed therapy
+10/10/2020,oT5vqg2wnb,55,Male,Primary or Islamic education,Punjabi,,16,13,4,Completed therapy
+9/11/2020,nFe6dyvqXu,31,Female,Secondary or matric,Urdu,Married,14,8,2,Completed therapy
+9/11/2020,YulTJentDa,42,Female,Primary or Islamic education,Punjabi,,11,9,3,Completed therapy
+9/11/2020,IlocR97i5j,28,Male,Primary or Islamic education,Pushto,Married,5,15,1,Refuse
+9/11/2020,pjIx4NfQmn,36,Female,Primary or Islamic education,Saraiki,Married,13,15,3,Completed therapy
+9/11/2020,mszerU0lcb,22,Female,Secondary or matric,Urdu,Others,17,15,2,Refuse
+11/11/2020,GzHufXqs7O,18,Male,Secondary or matric,Pushto,Unmarried,9,10,3,Completed therapy
+11/11/2020,62GNr9gAL1,32,Female,Primary or Islamic education,Saraiki,Married,12,12,5,Completed therapy
+11/11/2020,be4BEqcndk,23,Male,Bachelors,Other.,Unmarried,17,10,3,Completed therapy
+11/11/2020,EZXrC7B9wc,37,Male,Secondary or matric,Punjabi,Married,9,9,3,Completed therapy
+11/11/2020,ySXCNZf48J,36,Female,Primary or Islamic education,Saraiki,Married,16,13,3,Completed therapy
+12/11/2020,7tIGHQLSgn,28,Female,Primary or Islamic education,Saraiki,Married,21,13,3,Refuse
+12/11/2020,jzV7Hitgq8,16,Female,Primary or Islamic education,Saraiki,,9,4,2,Referred
+12/11/2020,47XIGAWSVc,38,Female,Secondary or matric,Urdu,Married,17,15,1,Loss to Follow-up
+12/11/2020,A01CVDS3Ya,32,Female,Secondary or matric,Hindko,Married,7,4,4,Completed therapy
+12/11/2020,TIJAt3MvfZ,49,Female,Primary or Islamic education,Sindhi,Married,17,15,3,Loss to Follow-up
+12/11/2020,8AvEeIN9Ql,47,Female,No education,Saraiki,Married,19,15,2,Completed therapy
+13/11/2020,uq3SjAmcny,37,Female,Primary or Islamic education,Hindko,,16,10,1,Loss to Follow-up
+13/11/2020,p2VYXd9LeG,28,Female,Primary or Islamic education,Saraiki,Married,15,9,3,Completed therapy
+14/11/2020,r5OpaoBgnN,30,Female,Primary or Islamic education,Sindhi,,14,11,3,Completed therapy
+14/11/2020,otAJWK0N7r,35,Female,No education,Hindko,Married,10,17,2,Loss to Follow-up
+14/11/2020,kEUT4BieC1,46,Female,No education,Sindhi,Married,25,20,1,Loss to Follow-up
+14/11/2020,75L3CMmXBW,54,Male,Bachelors,Urdu,,14,7,3,Completed therapy
+14/11/2020,MFb0qlJhzu,32,Female,Secondary or matric,Hindko,Others,11,11,1,Refuse
+14/11/2020,mLlrngHC1O,32,Male,Intermediate,Urdu,Unmarried,25,19,3,Completed therapy
+14/11/2020,oX8BLPFDEz,68,Male,Primary or Islamic education,Urdu,Married,6,8,2,Completed therapy
+14/11/2020,9pRuUAEaIs,42,Female,Primary or Islamic education,Saraiki,,15,13,1,Loss to Follow-up
+14/11/2020,fPTwLkz17Q,30,Male,Secondary or matric,Hindko,Unmarried,11,6,1,Loss to Follow-up
+14/11/2020,0w5PcMYIOn,50,Female,No education,Urdu,Married,9,8,1,Loss to Follow-up
+14/11/2020,ZqKNAclOJe,60,Female,Primary or Islamic education,Balochi,,21,16,1,Loss to Follow-up
+15/11/2020,2Tlijfp6E7,38,Female,Secondary or matric,Punjabi,Married,18,20,1,Referred
+15/11/2020,NKzcEVo05i,45,Female,Primary or Islamic education,Punjabi,,8,7,2,Loss to Follow-up
+15/11/2020,7xZiQzNeKk,39,Female,Primary or Islamic education,Saraiki,Married,17,9,1,Loss to Follow-up
+15/11/2020,uEiXbKZjGI,49,Female,Primary or Islamic education,Sindhi,,11,11,1,Loss to Follow-up
+15/11/2020,x6L78Ukcg3,35,Female,Primary or Islamic education,Punjabi,,25,17,5,Completed therapy
+15/11/2020,R1E3JqQzUl,21,Female,Primary or Islamic education,Saraiki,Married,17,11,1,Loss to Follow-up
+15/11/2020,IYtAb0WwrL,21,Female,Bachelors,Urdu,Others,21,20,1,Refuse
+15/11/2020,368xQoR4KM,36,Male,Secondary or matric,Urdu,Married,20,16,3,Completed therapy
+16/11/2020,Zcr86EL4Gv,39,Male,Primary or Islamic education,Saraiki,,14,21,3,Completed therapy
+16/11/2020,2m4uE9lnbw,63,Female,No education,Urdu,,9,4,4,Completed therapy
+16/11/2020,Pry5HiVZDB,30,Male,Secondary or matric,Sindhi,Married,18,20,3,Completed therapy
+16/11/2020,PFEQgXYd1c,40,Female,No education,Urdu,Married,10,9,3,Loss to Follow-up
+16/11/2020,PbvqD8gGcr,18,Female,Masters,Saraiki,Unmarried,9,12,1,Refuse
+16/11/2020,deQbh6u4PT,17,Female,Primary or Islamic education,Urdu,Unmarried,1,3,1,Loss to Follow-up
+16/11/2020,uqUXdz863c,44,Female,Secondary or matric,Urdu,,9,3,2,Completed therapy
+18/11/2020,a0RvP9JKQq,36,Female,Primary or Islamic education,Saraiki,,25,20,1,Loss to Follow-up
+18/11/2020,12Lv8WqEAz,45,Female,Primary or Islamic education,Saraiki,,13,14,1,Loss to Follow-up
+18/11/2020,jm3LUOewFM,41,Female,Primary or Islamic education,Urdu,Others,5,2,3,Completed therapy
+18/11/2020,IO28iSv6E3,34,Female,Intermediate,Punjabi,Married,13,18,3,Completed therapy
+18/11/2020,wzdk093OYy,21,Female,Primary or Islamic education,Sindhi,,10,13,1,Loss to Follow-up
+18/11/2020,lgEJZ0o9ye,39,Female,Primary or Islamic education,Punjabi,Married,14,14,5,Completed therapy
+18/11/2020,jBkwHuAM98,38,Female,No education,Sindhi,Married,11,10,1,Loss to Follow-up
+19/11/2020,IVaXFjSivY,55,Male,Primary or Islamic education,Sindhi,Married,12,15,3,Loss to Follow-up
+19/11/2020,nXqEeHsBTP,38,Female,Primary or Islamic education,Saraiki,,12,9,2,Loss to Follow-up
+19/11/2020,dpvwyNltaL,52,Female,Primary or Islamic education,Punjabi,Married,7,9,3,Completed therapy
+19/11/2020,S2etrWlUZq,56,Male,Primary or Islamic education,Punjabi,Married,14,9,1,Loss to Follow-up
+19/11/2020,eVRDKFkEgU,30,Male,Primary or Islamic education,Sindhi,Married,16,15,3,Loss to Follow-up
+19/11/2020,1GgSFW5EZc,26,Female,Primary or Islamic education,Saraiki,Married,9,7,2,Loss to Follow-up
+19/11/2020,wRceTpb1B5,41,Female,Primary or Islamic education,Saraiki,Others,16,13,4,Completed therapy
+19/11/2020,FJIVku8OnQ,34,Male,Secondary or matric,Urdu,Married,10,10,1,Loss to Follow-up
+19/11/2020,rQ870CGwO1,49,Female,No education,Sindhi,Others,13,10,3,Completed therapy
+19/11/2020,0DcG3AnM9O,30,Female,Primary or Islamic education,Punjabi,Married,7,11,3,Completed therapy
+19/11/2020,2SXYPrqdfM,45,Female,No education,Saraiki,Married,16,14,3,Completed therapy
+20/11/2020,s42zQb1ejX,48,Male,Primary or Islamic education,Saraiki,Married,6,6,3,Completed therapy
+20/11/2020,lzayJLXxF0,35,Female,Primary or Islamic education,Other.,Married,9,10,1,Loss to Follow-up
+20/11/2020,lbse5g8yvF,30,Female,Secondary or matric,Urdu,Married,5,7,1,
+20/11/2020,Ghz1c8ugZs,32,Male,Secondary or matric,Pushto,Unmarried,21,16,2,Loss to Follow-up
+20/11/2020,rFdWLcDH6A,54,Female,No education,Urdu,Married,6,9,2,Loss to Follow-up
+21/11/2020,A8rfIQoO4j,37,Female,No education,Saraiki,Others,19,14,2,Loss to Follow-up
+21/11/2020,f9E3GDATMY,36,Female,Secondary or matric,Sindhi,Married,17,15,2,Loss to Follow-up
+21/11/2020,spau7LCYkM,40,Male,Secondary or matric,Urdu,Married,16,17,1,Referred
+21/11/2020,SdPLmKcUJx,20,Female,Secondary or matric,Pushto,Unmarried,13,13,8,Completed therapy
+21/11/2020,3zQhjayJVI,18,Female,Intermediate,Saraiki,Unmarried,13,14,2,Referred
+23/11/2020,VZHiG6CAXq,27,Female,No education,Saraiki,Married,10,9,1,Refuse
+23/11/2020,jVMyo1uhpS,42,Male,Masters,Sindhi,,9,5,6,Completed therapy
+23/11/2020,InV2c4QmJe,19,Female,No education,Pushto,Married,15,16,3,Completed therapy
+23/11/2020,UyFi3oL7EK,36,Female,Primary or Islamic education,Saraiki,,16,18,2,Loss to Follow-up
+23/11/2020,Lqhy632DzI,33,Female,No education,Balochi,Married,15,14,1,Loss to Follow-up
+23/11/2020,kTjq4J9HtQ,43,Female,Intermediate,Punjabi,,3,4,3,Completed therapy
+25/11/2020,QYKVaLkucB,40,Female,Secondary or matric,Pushto,Married,7,3,3,Completed therapy
+25/11/2020,oz4tES9p1L,48,Female,Primary or Islamic education,Saraiki,,20,18,3,Completed therapy
+25/11/2020,1yxr9eJgSv,21,Female,Secondary or matric,Saraiki,Married,13,13,1,Loss to Follow-up
+25/11/2020,vP0DMkR81A,35,Female,No education,Saraiki,Married,11,9,3,Completed therapy
+26/11/2020,fGmTKxoh9u,30,Female,Intermediate,Urdu,Others,7,4,4,Completed therapy
+26/11/2020,kux1FqeaLG,36,Female,Primary or Islamic education,Hindko,Married,13,9,3,Completed therapy
+27/11/2020,vbsyIp2gWL,23,Female,Secondary or matric,Urdu,Married,9,17,3,Completed therapy
+27/11/2020,WUrgHilbcu,32,Female,Primary or Islamic education,Saraiki,,17,12,3,Completed therapy
+27/11/2020,jNdzq5COhA,29,Female,Primary or Islamic education,Saraiki,,25,14,3,Completed therapy
+27/11/2020,Q8kYtEKc4y,24,Male,Primary or Islamic education,Saraiki,,19,16,2,Completed therapy
+27/11/2020,dcRghYqK1p,17,Female,Secondary or matric,Urdu,Unmarried,12,9,2,Referred
+28/11/2020,BIWYPjOS4p,35,Male,Masters,Urdu,Unmarried,6,5,3,Completed therapy
+28/11/2020,4QU1AIe0Td,40,Female,Primary or Islamic education,Punjabi,Married,15,14,3,Completed therapy
+28/11/2020,mLbXo1w59d,18,Female,No education,Sindhi,Unmarried,16,13,1,Loss to Follow-up
+28/11/2020,KP3n6sewQD,57,Female,Secondary or matric,Urdu,,13,14,,Referred
+28/11/2020,gKlQiA1cJ8,28,Female,Masters,Urdu,Others,17,11,6,
+28/11/2020,xsdZH6iJIB,47,Female,Secondary or matric,Urdu,Married,8,10,2,Completed therapy
+28/11/2020,ZNw5afFosM,42,Female,No education,Pushto,Married,12,11,1,Loss to Follow-up
+28/11/2020,PUptVk5r7n,46,Female,No education,Saraiki,Married,17,13,2,Loss to Follow-up
+28/11/2020,pb8hlItHoA,30,Male,Intermediate,Urdu,Married,11,21,4,Completed therapy
+29/11/2020,lKypktzWGf,39,Male,No education,Punjabi,Married,11,9,3,
+29/11/2020,OSR4cb7sUu,23,Female,Intermediate,Urdu,Married,10,11,2,Refuse
+29/11/2020,7HNWdQGwjL,30,Male,Primary or Islamic education,Urdu,Married,12,9,4,
+29/11/2020,b5keiaGDmK,18,Female,No education,Balochi,Others,19,12,3,
+30/12/2020,yMEZImY07u,41,Female,Primary or Islamic education,Pushto,Married,21,13,3,Completed therapy
+27/2/2021,se2u7BZMJP,27,Female,Primary or Islamic education,Saraiki,,12,15,3,Completed therapy
+27/2/2021,L1n5rCsMh9,19,Male,Primary or Islamic education,Saraiki,Unmarried,9,13,3,Completed therapy
+27/2/2021,0ZgmAWPRJv,31,Female,Primary or Islamic education,Pushto,Married,6,5,1,Completed therapy
+27/2/2021,GuSW9Ucv3A,50,Female,Secondary or matric,Urdu,Married,9,6,2,Completed therapy
+27/2/2021,iAEufJ7B3C,34,Female,Secondary or matric,Urdu,,14,11,3,Completed therapy
+29/3/2021,SKVg9JxM4Q,27,Female,Primary or Islamic education,Saraiki,,15,11,1,Loss to Follow-up
+29/3/2021,qlaXi8wMSZ,39,Male,Primary or Islamic education,Saraiki,,19,11,1,Loss to Follow-up
+29/3/2021,umWt2LD8Il,30,Female,Primary or Islamic education,Urdu,Married,20,15,,Loss to Follow-up
+29/3/2021,8XFoqwrguD,26,Female,Intermediate,Hindko,,7,2,2,
+29/3/2021,r4dO9QKmso,52,Female,Secondary or matric,Urdu,Married,5,4,3,Completed therapy
+29/3/2021,pm8KStf2e6,50,Female,Primary or Islamic education,Punjabi,,10,9,3,Completed therapy
+29/3/2021,EH5yu3MsA8,20,Female,No education,Saraiki,Married,11,11,1,Refuse
+29/3/2021,JKiDUO9LrZ,42,Female,Primary or Islamic education,Pushto,Married,18,15,3,Completed therapy
+29/4/2021,HmwBxZWU41,34,Male,Secondary or matric,Urdu,Unmarried,6,1,3,Completed therapy
+29/4/2021,AMw9CvLjKY,35,Female,Primary or Islamic education,Punjabi,,17,17,2,Completed therapy
+29/4/2021,87HyUkrXJa,50,Female,Primary or Islamic education,Saraiki,,10,14,2,Completed therapy
+29/5/2021,s0w2oTREcj,39,Male,Primary or Islamic education,Saraiki,,19,13,3,Completed therapy
+29/5/2021,fNl5ZnvUc7,27,Female,Intermediate,Urdu,Married,16,12,3,Completed therapy
+29/5/2021,pD5H8mtxiz,39,Male,Secondary or matric,Punjabi,Married,14,15,3,Completed therapy
+29/5/2021,Dud9KEOGea,43,Female,No education,Saraiki,Married,14,14,3,Completed therapy
+29/6/2021,9rnyTOCvpo,42,Male,Primary or Islamic education,Saraiki,Married,14,8,3,Completed therapy
+29/6/2021,CfMRGmQi8Z,54,Female,Secondary or matric,Urdu,Married,15,9,2,Loss to Follow-up
+30/7/2021,ry7hFTx6NZ,35,Male,Secondary or matric,Urdu,,9,10,3,Completed therapy
+30/7/2021,2SyaNvclpo,24,Female,Primary or Islamic education,Saraiki,,19,14,3,Completed therapy
+30/7/2021,8IVqEhX2KN,38,Male,Secondary or matric,Urdu,Unmarried,11,1,1,Loss to Follow-up
+30/7/2021,OIL7AYdmyB,25,Female,Secondary or matric,Saraiki,Unmarried,8,7,3,Completed therapy
+30/7/2021,WP3DvZT9C5,58,Female,Primary or Islamic education,Urdu,,5,6,3,Completed therapy
