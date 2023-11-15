@@ -117,6 +117,8 @@ impact1 <- impact |>
     tx_completed = setLabels(tx_completed, "Whether or not participant completed therapy")
   )
 
+saveRDS(impact1, "data/impact_binary.rds")
+
 # Describe variables by the binary variable
 # Using group_by()
 impact1 |> 

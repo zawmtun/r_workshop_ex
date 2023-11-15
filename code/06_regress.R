@@ -3,53 +3,9 @@ library(collapse)
 library(broom)
 library(gtsummary)
 library(car)
+library(janitor)
 
-dat <- read_csv("data/psz_impact.csv")
-
-agegrp_lvl <- c(
-  "25 and younger",
-  "26-35",
-  "36-45",
-  "46 and older"
-)
-
-edu_lvl <- c(
-  "No education",
-  "Primary or Islamic education",
-  "Secondary or matric",
-  "Intermediate",
-  "Bachelors",
-  "Masters"
-)
-
-tx_status_lvl <- c(
-  "Completed therapy",
-  "Loss to follow-up",
-  "Referred",
-  "Refused therapy"
-)
-
-impact <- dat |> 
-  rename(visit_date = DATE_ENTERED,
-         age = AGE,
-         education = Education) |> 
-  fsubset(tx_status != "Terminated") |> 
-  fsubset(gender != "Transgender") |> 
-  fmutate(
-    agegrp = case_when(
-      age <= 25 ~ agegrp_lvl[1],
-      age > 25 & age <= 35 ~ agegrp_lvl[2],
-      age > 35 & age <= 45 ~ agegrp_lvl[3],
-      age > 45 ~ agegrp_lvl[4],
-      .default = "Unknown"
-    ) |>
-      factor(levels = agegrp_lvl),
-    gender = factor(gender),
-    factor(education, levels = edu_lvl),
-    language = fct_infreq(language) |> fct_lump_min(min = 55),
-    marital_status = factor(marital_status),
-    tx_status = fct_infreq(tx_status)
-  )
+impact <- readRDS("data/impact_binary.rds")
 
 # Binary variable -----
 
@@ -57,17 +13,22 @@ impact <- dat |>
 
 ##### Interactive
 # Example: agegrp
+# Let's look at the distribution first
+impact |> 
+  select(agegrp, tx_completed) |> 
+  descr(by = ~tx_completed)
+
 # Create a LR model based on surveys2
-m1 <- glm(tx_completed ~ agegrp, family = binomial, data = impact2)
+m1 <- glm(tx_completed ~ agegrp, family = binomial, data = impact)
 # Error in eval(family$initialize) : y values must be 0 <= y <= 1
 
 # Change the outcome variable accordingly
 # Also remove two observations of transgender
-impact3 <- impact1 |> 
-  mutate(tx_completed = (tx_completed == "Completed"))
+impact1 <- impact |> 
+  mutate(tx_completed = as.integer(tx_completed == "Completed"))
 
-# Create a LR model based on surveys3
-m1 <- glm(tx_completed ~ agegrp, family = binomial, data = impact3)
+# Create a LR model
+m1 <- glm(tx_completed ~ agegrp, family = binomial, data = impact1)
 
 # Examine the model
 summary(m1)
@@ -75,23 +36,31 @@ tidy(m1, exponentiate = TRUE, conf.int = TRUE)
 Anova(m1)
 
 # Example: education
-m2 <- glm(tx_completed ~ education, family = binomial, data = impact3)
+impact |> 
+  group_by(tx_completed) |> 
+  select(education) |> 
+  descr()
+
+m2 <- glm(tx_completed ~ education, family = binomial, data = impact1)
 tidy(m2, exponentiate = TRUE, conf.int = TRUE)
 Anova(m2)
 
 #### Practice
-# Build LR models and examine the results using education, ancplace
+# Build LR models and examine the results using language
 
 # language
-m_language <- glm(tx_completed ~ language, family = binomial, data = impact3)
-summary(m_language)
+impact |> 
+  select(language, tx_completed) |> 
+  descr(by = ~tx_completed)
+
+m_language <- glm(tx_completed ~ language, family = binomial, data = impact1)
 tidy(m_language, exponentiate = TRUE, conf.int = TRUE)
 Anova(m_language)
 
 ### Publication-ready table
 
 # Independent variable: agegrp, gender
-impact3 |> 
+impact1 |> 
   select(agegrp, gender, tx_completed) |> 
   tbl_uvregression(
     y = tx_completed,
@@ -102,9 +71,10 @@ impact3 |>
   add_global_p()
 
 #### Practice
-# Build univariable LR models and examine the results based on all variables except phq9 and gad7 scores
-impact3 |> 
-  select(-c(phq9, gad7)) |> 
+# Build univariable LR models to assess factors associated with completing the therapy
+# Explanatory variables: age, gender, educaiton, marital status, phq9
+impact1 |> 
+  select(age, gender, education, phq9, tx_completed) |> 
   tbl_uvregression(
     y = tx_completed,
     method = glm,
@@ -117,9 +87,9 @@ impact3 |>
 
 # Example: education, residence
 # Build model
-mv1 <- glm(tx_completed ~ agegrp + gender + education,
+mv1 <- glm(tx_completed ~ agegrp + gender + education + phq9,
            family = binomial,
-           data = impact3)
+           data = impact1)
 
 # Extract estimates
 tidy(mv1, exponentiate = TRUE, conf.int = TRUE)
@@ -127,12 +97,12 @@ tidy(mv1, exponentiate = TRUE, conf.int = TRUE)
 Anova(mv1)
 
 # Create publication-ready table 
-mv <- mv1 |> 
+mv1 |> 
   tbl_regression(exponentiate = TRUE) |> 
   add_global_p()
 
 # Combine uni- and multi-variable analysis results in one table
-uv <- impact3 |> 
+uv <- impact1 |> 
   select(agegrp, gender, education, tx_completed) |> 
   tbl_uvregression(
     y = tx_completed,
@@ -143,20 +113,84 @@ uv <- impact3 |>
   ) |> 
   add_global_p()
 
-umv <- tbl_merge(
+mv <- mv1 |> 
+  tbl_regression(exponentiate = TRUE) |> 
+  add_global_p()
+
+tbl_merge(
   tbls = list(uv, mv),
   tab_spanner = c("Univariable analysis", "Multivariable analysis")
 )
 
-umv
-
-
 # Continuous variable ----
 
 ## Univariable analysis ----
+# Age
+ggplot(impact1, aes(x = age, y = phq9)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+
+m_age <- lm(phq9 ~ age, data = impact1)
+tidy(m_age)
+
+# Gender
+ggplot(impact1, aes(x = gender, y = phq9)) +
+  geom_jitter(alpha = 0.2) +
+  geom_boxplot(fill = "transparent")
+
+m_gender <- lm(phq9 ~ gender, data = impact1)
+tidy(m_gender)
+
+# Education
+ggplot(impact1, aes(x = education, y = phq9)) +
+  geom_jitter(alpha = 0.2) +
+  geom_boxplot(fill = "transparent")
+
+m_edu <- lm(phq9 ~ education, data = impact1)
+tidy(m_edu)
+
+# Language
+ggplot(impact1, aes(x = language, y = phq9)) +
+  geom_jitter(alpha = 0.2) +
+  geom_boxplot(fill = "transparent")
+
+m_lan <- lm(phq9 ~ language, data = impact1)
+tidy(m_lan)
 
 ## Multivariable analysis ----
 
+# Plot the data
+mv1 <- lm(phq9 ~ age + gender + education + language, data = impact1)
+tidy(mv1)
 
-# Save impact3 as RDS so we can use it to generate a report.
-saveRDS(impact3, "data/impact3.rds")
+# Check the residuals
+augment(mv1) |> 
+  ggplot(aes(x = .fitted, y = .resid)) +
+  geom_point(shape = 21, alpha = 0.8) +
+  geom_smooth(method = "lm")
+
+## Publication ready tables ----
+# Univariable analysis 
+uv <- impact1 |> 
+  select(age, gender, education, language, tx_completed) |> 
+  tbl_uvregression(
+    y = tx_completed,
+    method = lm,
+    hide_n = TRUE,
+    estimate_fun = \(x) style_number(x, digits = 4)
+  ) |> 
+  add_global_p()
+
+# Multivariable analysis
+mv1 <- lm(phq9 ~ age + gender + education + language, data = impact1)
+mv <- mv1 |> 
+  tbl_regression(
+    estimate_fun = \(x) style_number(x, digits = 4)
+  ) |> 
+  add_global_p()
+
+# Combine uni- and multi-variable analysis
+tbl_merge(
+  tbls = list(uv, mv),
+  tab_spanner = c("Univariable analysis", "Multivariable analysis")
+)
